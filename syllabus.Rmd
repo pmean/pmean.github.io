@@ -1,5 +1,5 @@
 ---
-title: "About my Website"
+title: "Syllabus for MEDB 5507"
 ---
     
-This is the about page.
+This is the syllabus page.

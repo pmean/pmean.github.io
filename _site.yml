@@ -6,6 +6,6 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Syllabus"
-      href: about.html
+      href: syllabus.html
     - text: "Overview"
       href: overview.html
