@@ -1,8 +1,11 @@
-name: "my-website"
+name: "MEDB 5507, Introduction to SAS"
+output_dir: "docs"
 navbar:
-  title: "My Website"
+  title: "Home page"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "Syllabus"
       href: about.html
+    - text: "Overview"
+      href: overview.html

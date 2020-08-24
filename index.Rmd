@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: "MEDB 5507"
 ---
     
-Hello, Website! Welcome to the world.
+This website provides information about the course MEDB 5507, Introduction to SAS taught by Steve Simon for the Department of Biomedical and Health Informatics at UMKC.
