@@ -1,18 +1,12 @@
 ---
 title: "Overview for Module1"
-output:
-  html_document: default
-  pdf_document: default
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding,
-  output_dir = "../results", output_format = "all") })  
 ---
 
 This file was created by Steve Simon using R Markdown on 2020-06-27 and last updated on `r Sys.Date()`. You can find the source code on [my github repository](https://github.com/pmean/introduction-to-SAS/tree/master/basics1/src/overview1.Rmd).
 
 ### Learning objectives
 
-`r paste(readLines("../data/objectives01.txt")[-1], collapse="\n")`
+`r paste(readLines("data/objectives01.txt")[-1], collapse="\n")`
 
 ### SAS code that you will learn
 
