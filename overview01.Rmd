@@ -51,3 +51,15 @@ This file was created by Steve Simon using R Markdown on 2020-06-27 and last upd
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=faeefa60-c4ed-4d5b-a959-aa73013ea6af).
   + Slides with speaker notes are not available.
   + input-text.sas is available in [text format](https://github.com/pmean/introduction-to-SAS/tree/master/basics1/src/input-text.sas).
+  
+### Discussion board
+
+Please briefly introduce yourself. Tell us a bit about yourself professionally, and optionally tell us one thing that is not related to your work or your career. Also optional, but greatly appreciated, would be a picture of yourself.                                                                            
+
+Submit your discussion comments [here](https://umkc.instructure.com/courses/59353/discussion_topics/186810).   
+
+### Homework
+
+Take the code in your-first-program.sas and run it on your system. If you get an error message that you can't fix, document that error message in the text box. You will get full credit for any reasonable attempt to get the program to run. If your program ran successfully, describe your difficulties (if any) in getting the program to run. 
+
+Submit your assignment [here](https://umkc.instructure.com/courses/59353/assignments/228704).

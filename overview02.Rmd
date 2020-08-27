@@ -1,5 +1,5 @@
 ---
-title: "Overview for Module2"
+title: "Overview for Module02"
 ---
 
 This file was created by Steve Simon using R Markdown on 2020-08-26 and last updated on `r Sys.Date()`.
@@ -10,7 +10,9 @@ This file was created by Steve Simon using R Markdown on 2020-08-26 and last upd
 
 ### SAS code that you will learn
 
-+ 
++ delimiter
++ proc import
+  + getnames
 
 ### Videos and handouts
 
@@ -33,4 +35,20 @@ This file was created by Steve Simon using R Markdown on 2020-08-26 and last upd
 + V02-04. Importing a wide range of data formats, part 4 (). 
   + Available in [Panopto format]().
   + Slides with speaker notes available above.
+
+### Discussion board
+
+I'd like some brief feedback to the videos you just watched. Keep it short. One or two sentences per question is fine. You can also say something briefer like "I agree with [other student]". If you found everything confusing or nothing confusing, just respond with the word "everything" or "nothing." Please don't spend more than a minute on this assignment. I just want a quick reaction.
+
+1. What was the most important thing you learned in these videos?
+
+2. What was the one thing that you found confusing?
+
+3. What would you like to see covered next?                                                                         
+
+Submit your discussion comments [here]().   
+
+### Homework
+
+Submit your assignment [here]().
 

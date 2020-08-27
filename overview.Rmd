@@ -4,6 +4,6 @@ title: "Overview"
     
 Here are the overviews for each module of the class.
 
-Here is the link to the [overview for module 01](overview1.html).
-
-First discussion board is [here](https://umkc.instructure.com/courses/59353/discussion_topics/186810).
++ [Overview for module01](overview01.html).
++ [Overview for module02](overview02.html).
++ [Overview for module03](overview03.html).

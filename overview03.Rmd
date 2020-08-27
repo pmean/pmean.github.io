@@ -1,0 +1,51 @@
+---
+title: "Overview for Module3"
+---
+
+This file was created by Steve Simon using R Markdown on 2020-08-26 and last updated on `r Sys.Date()`.
+
+### Learning objectives
+
+`r paste(readLines("data/objectives03.txt")[-1], collapse="\n")`
+
+### SAS code that you will learn
+
++ if ... then
++ proc corr
+  + noprint
+  + output
++ proc format
+  + values
++ proc means
+  + nmiss
++ proc sgplot
+  + histogram
+    + binstart
+    + binwidth
+  + pbspline
+  + reg
+  + scatter
++ proc sort
+  + by
+    + descending
++ set
+ 
+
+### Videos and handouts
+
++ V02-01. Importing a wide range of data formats, part 1 (7 minutes). 
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6de8440a-1bd4-4d2e-9631-aa7f015b2953).
+  + Slides with speaker notes available in [pdf format](https://github.com/pmean/introduction-to-SAS/blob/master/basics2/src/importing-speaker-notes.pdf).
+
++ V02-02. Importing a wide range of data formats, part 2 (23 minutes). 
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4954f8af-d8be-4657-bc24-aa7f015edf92).
+  + Slides with speaker notes available above.
+
++ V02-03. Importing a wide range of data formats, part 3 (12 minutes). 
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0ce9339f-f3c9-4bb3-908e-aa790131a2a9).
+  + Slides with speaker notes available above.
+
++ V02-04. Importing a wide range of data formats, part 4 (). 
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c53d9a11-aa2e-4ee0-ac8e-aa78017aaea2).
+  + Slides with speaker notes available above.                                     
+
