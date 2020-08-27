@@ -3,3 +3,15 @@ title: "MEDB 5507"
 ---
     
 This website provides information about the course MEDB 5507, Introduction to SAS taught by Steve Simon for the Department of Biomedical and Health Informatics at UMKC.
+
+There are five modules associated with this course.
+
+[Module 1--Introduction](https://github.com/medb5507/module01)
+
+[Module 2](https://github.com/medb5507/module02)
+
+[Module 3](https://github.com/medb5507/module03)
+
+[Module 4](https://github.com/medb5507/module04)
+
+[Module 5](https://github.com/medb5507/module05)
