@@ -1,17 +1,21 @@
 ---
-title: "MEDB 5507"
+title: "Steve Simon's MEDB classes"
 ---
     
-This website provides information about the course MEDB 5507, Introduction to SAS taught by Steve Simon for the Department of Biomedical and Health Informatics at UMKC.
+This website provides information about the courses that Steve Simon teaches at the University of Missouri-Kansas City. All of these classes start with the four letters MEDB, whose meaning has been lost to antiquity.
 
-There are five modules associated with this course.
+All of the information on this website and as well as the assignment, code, and handouts for these classes are included in a [github repository](https://github.com/umkcmedb).
 
-[Module 1--Introduction](https://github.com/medb5507/module01)
+So far, the only class on this repository is MEDB 5507, Introduction to SAS. Other classes will be added soon.
 
-[Module 2](https://github.com/medb5507/module02)
+There are five modules associated with MEDB 5507.
 
-[Module 3](https://github.com/medb5507/module03)
+[Module 1--Introduction](https://github.com/umkcmedb/module01)
 
-[Module 4](https://github.com/medb5507/module04)
+[Module 2](https://github.com/umkcmedb/module02)
 
-[Module 5](https://github.com/medb5507/module05)
+[Module 3](https://github.com/umkcmedb/module03)
+
+[Module 4](https://github.com/umkcmedb/module04)
+
+[Module 5](https://github.com/umkcmedb/module05)
