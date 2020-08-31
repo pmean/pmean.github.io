@@ -1,11 +1,9 @@
-name: "MEDB 5507, Introduction to SAS"
+name: "Steve Simon's MEDB classes"
 output_dir: "docs"
 navbar:
   title: "Home page"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "Syllabus"
-      href: syllabus.html
-    - text: "Overview"
-      href: overview.html
+    - text: "5507 Syllabus"
+      href: 5507-syllabus.html
+    - text: "5507 Overview"
+      href: 5507-overview.html
