@@ -4,7 +4,18 @@ title: "Steve Simon's MEDB classes"
     
 This website provides information about the courses that Steve Simon teaches at the University of Missouri-Kansas City. All of these classes start with the four letters MEDB, whose meaning has been lost to antiquity.
 
-All of the information on this website and as well as the assignment, code, and handouts for these classes are included in a [github repository](https://github.com/umkcmedb).
+All of the information on this website and as well as the assignment, code, and handouts for these classes are included in a [github site](https://github.com/classes-medb).
+
+This site has the following repositories:
+
++ [classes-medb.github.io](https://github.com/classes-medb/classes-medb.github.io): which contains the R Markdown files needed to create this website.
++ [5507](https://github.com/classes-medb/5507-module01) which contains the assignments, code, data, and handouts used in MEDB 5507, Introduction to SAS.
+
+Eventually, I will add repositories for the other classes I teach or co-teach:
+
++ MEDB 5505, Introduction to R
++ MEDB 5508, Introduction to SQL
++ MEDB 5510, Clinical Research Methodology
 
 So far, the only class on this repository is MEDB 5507, Introduction to SAS. Other classes will be added soon.
 

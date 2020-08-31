@@ -1,9 +1,0 @@
-### Module3 - Data with mostly continuous variables
-
-Objectives:
-
-1. To produce means and standard deviations
-
-2. To create and manipulate missing value
-
-3. To draw histograms and scatterplots
