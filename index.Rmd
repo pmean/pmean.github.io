@@ -9,24 +9,9 @@ All of the information on this website and as well as the assignment, code, and 
 This site has the following repositories:
 
 + [classes-medb.github.io](https://github.com/classes-medb/classes-medb.github.io): which contains the R Markdown files needed to create this website.
-+ [5507](https://github.com/classes-medb/5507-module01) which contains the assignments, code, data, and handouts used in MEDB 5507, Introduction to SAS.
++ [5505](https://github.com/classes-medb/5507) which contains the assignments, code, data, and handouts used in MEDB 5505, Introduction to R.
++ [5507](https://github.com/classes-medb/5507) which contains the assignments, code, data, and handouts used in MEDB 5507, Introduction to SAS.
++ [5508](https://github.com/classes-medb/5508) which contains the assignments, code, data, and handouts used in MEDB 5508, Introduction to SQL.
++ [5510](https://github.com/classes-medb/5510) which contains the assignments, code, data, and handouts used in MEDB 5510, Clinical Research Methodology.
 
-Eventually, I will add repositories for the other classes I teach or co-teach:
-
-+ MEDB 5505, Introduction to R
-+ MEDB 5508, Introduction to SQL
-+ MEDB 5510, Clinical Research Methodology
-
-So far, the only class on this repository is MEDB 5507, Introduction to SAS. Other classes will be added soon.
-
-There are five modules associated with MEDB 5507.
-
-[Module 1--Introduction](https://github.com/umkcmedb/module01)
-
-[Module 2](https://github.com/umkcmedb/module02)
-
-[Module 3](https://github.com/umkcmedb/module03)
-
-[Module 4](https://github.com/umkcmedb/module04)
-
-[Module 5](https://github.com/umkcmedb/module05)
+All of these repositories are rapidly evolving. Not all the assignments, code, data, and handouts are available for every repository. Eventually, things will settle down.
