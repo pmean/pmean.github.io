@@ -1,9 +1,0 @@
-### Module2 - Reading a variety of different text files
-
-Objectives:
-
-1. To read delimited text files
-
-2. To read fixed width files
-
-3. To read files with variable names in the first row

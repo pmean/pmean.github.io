@@ -1,6 +1,6 @@
 ---
-title: "MEDB 5507, Introduction to SAS"
-author: "Steve Simon"
+title: "MEDB 5508, Introduction to SQL"
+author: "Suman Sahil, Steve Simon"
 output: html_document
 ---
 
@@ -18,5 +18,7 @@ mainheads <- (nchar(s0)>0) & !subheads
 s0[mainheads] <- paste0("<h4>", s0[mainheads], "</h4>")
 s1 <- paste0(s0[mainheads | subheads], collapse="\n\n")
 ```
+
+`r s1`
 
 This document was written on 2020-08-26 and last modifed on `r Sys.Date()`.
