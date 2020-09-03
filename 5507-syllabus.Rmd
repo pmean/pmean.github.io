@@ -19,4 +19,6 @@ s0[mainheads] <- paste0("<h4>", s0[mainheads], "</h4>")
 s1 <- paste0(s0[mainheads | subheads], collapse="\n\n")
 ```
 
+`r s1`
+
 This document was written on 2020-08-26 and last modifed on `r Sys.Date()`.
