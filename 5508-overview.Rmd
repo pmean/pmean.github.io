@@ -5,3 +5,637 @@ title: "Overview"
 Here are the overviews for each module of the class.
 
 ## Module01. (To be added)
+
+## Module02.
+
+### Objectives
+
++ In this module, you will learn  how to
+  + Retrieve a limited number of fields
+  + Retrieve distinct values
+  + Change field names
+  
+### Data
+
+This page provides a bit more details about the database used in this module. Please note that there might be small inconsistencies between the Oracle version and the SQLite version of the data.
+
++ Airlines
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/airlines-data-dictionary.txt)
+  + Oracle: no download needed, use schema=melange
+  + SQLite: download [melange.SQLite](https://github.com/classes-medb/5508/blob/master/data/melange.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/airlines.csv). You should not need to access this backup.
+
++ Crawling
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/crawling-data-dictionary.txt)
+  + Oracle: no download needed, use schema=melange
+  + SQLite: download [melange.SQLite](https://github.com/classes-medb/5508/blob/master/data/melange.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/crawling.csv). You should not need to access this backup.
+
++ Hospital
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/hospital-data-dictionary.txt)
+  + Oracle: no download needed, use schema=ehr
+  + SQLite: download [ehr.SQLite](https://github.com/classes-medb/5508/blob/master/data/ehr.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/hospital.csv). You should not need to access this backup.
+
++ Patient_type
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/patient-type-data-dictionary.txt)
+  + Oracle: no download needed, use schema=ehr
+  + SQLite: download [ehr.SQLite](https://github.com/classes-medb/5508/blob/master/data/ehr.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/patient_type.csv). You should not need to access this backup.
+
+### Videos
+
++ Video02a. Retrieving data using the SQL Select statement (15 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b2a0448-a776-46eb-a17f-aaa7010bfcbb).
+  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video02a.pdf).
++ Video02b. Connecting to database and retrieving data (9 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=617dafb4-b773-4c78-ab31-aaaa00ff29e3).
+  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video02b.pdf).
+  
+### Assignments
+
++ Discuss02a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188507).
+
++ HW02a, Practice using the SELECT statemement.
+  + Use the table crawling. Refer to the page "Data used in this module" for a description of the data and where you can download it. Oracle users do not need to download anything, but do need to use schema=melange in their code.
+    + Read all three fields and all records
+    + Change Temperature to Temperature_F
+    + Put your code and the output in a single PDF file
+  + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233726).
+  
++ HW02b, Practice using the SELECT statement for EHR data.
+  + Use patient_type table in EHR Datamart. Refer to the page "Data used in this module" for a description of the data and where you can download it. Oracle users do not need to download anything.
+    + Read all fields and  all records
+    + Change Pat_type_desc to Patient_Type_Desc
+    + Put your code and the output in a single PDF file
+  + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233727).
+  
++ Quiz02, The SELECT statement
+  + Your quiz for this module is available [here](https://umkc.instructure.com/courses/58364/quizzes/54820).
+  
+## Module03 (To be added)
+
+## Module04, Sorting and restricting data
+
+### Objectives
++ In this module, you will learn  how to
+  + Limit the rows  that are retrieved by a query
+  + Sort the rows that are retrieved by a query
+  + Select a random sample of records
+  
+### Data
+
++ Airlines (see module02)
+
++ Cigarettes
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/cigarettes-data-dictionary.txt)
+  + Oracle: no download needed, use schema=melange
+  + SQLite: download [melange.SQLite](https://github.com/classes-medb/5508/blob/master/data/melange.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/cigarettes.csv). You should not need to access this backup.
+
++ Encounter
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/encounter-data-dictionary.txt)
+  + Oracle: no download needed, use schema=melange
+  + SQLite: download [melange.SQLite](https://github.com/classes-medb/5508/blob/master/data/ehr.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/encounter.csv). You should not need to access this backup.
+
++ Hospital (see module02)
+
++ Patient_type (see module02)
+
+### Videos
+
++ Video04a. Restricting and sorting data (24 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f3fa124f-bbf2-4234-9852-aab1013258c2).
+  + Slides available [here](https://github.com/classes-medb/5508/blob/master/results/video04a.pdf).
++ Video04b. WHERE keyword (24 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3d8e748e-03d4-4e1c-8038-aab70105f3d7).
+  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video04b.pdf).
++ Video04c. Data dictionary (9 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=180e269c-32a1-42e6-bd1f-ab19014ba38a).
+  + Slides with speaker notes not yet available.
+
+### Assignments
+
++ Discuss04a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188505).
+
++ Discuss04b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you.
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188514).
+
++ HW04a, Practice with sorting and restricting data - EHR Data.
+  + Use table patient_type in EHR data mart.
+    + Order all the fields by Pat_type_desc
+    + Select all fields where Pat_type_desc starts with ‘Inp’
+    + Select first four rows from the table
+    + Put your code and the output in a single PDF file
+  + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233728).
+  
++ HW04b, .
+  + Use the cigarettes database.
+    + Find and print the records for cigarettes that have an ampersand (&) in their name
+    + Find and print the records for cigarettes that are a single word brand name (no spaces)
+    + Put your code and output in a single pdf file
+  + Submit your assignment [here]().
+  
++ Quiz04, 
+  + Your quiz for this module is available [here]().
+  
+## Module05 (To be added)
+
+## Module06
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video06a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video06b. Connecting to database and retrieving data (  minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss06a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss06b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW06a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW06b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz06, 
+  + Your quiz for this module is available [here]().
+  
+## Module07
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video07a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video07b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss07a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss07b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW07a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW07b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz07, 
+  + Your quiz for this module is available [here]().
+  
+## Module08
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video08a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video08b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss08a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss08b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW08a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW08b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz08, 
+  + Your quiz for this module is available [here]().
+  
+## Module09
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video09a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video09b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss09a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss09b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW09a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW09b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz09, 
+  + Your quiz for this module is available [here]().
+  
+## Module10
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video10a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video10b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss10a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss10b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW10a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW10b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz10, 
+  + Your quiz for this module is available [here]().
+  
+## Module11
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video11a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video11b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss11a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss11b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW11a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW11b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz11, 
+  + Your quiz for this module is available [here]().
+  
+## Module12
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video12a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video12b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss12a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss12b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW12a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW12b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz12, 
+  + Your quiz for this module is available [here]().
+  
+## Module13
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video13a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video13b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss13a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss13b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW13a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW13b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz13, 
+  + Your quiz for this module is available [here]().
+  
+## Module14
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video14a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video14b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss14a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss14b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW14a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW14b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz14, 
+  + Your quiz for this module is available [here]().
+  
+## Module15
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video15a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video15b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss15a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss15b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW15a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW15b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz15, 
+  + Your quiz for this module is available [here]().
+  
+## Module16
+
+### Objectives
++ In this module, you will learn  how to
+  + 
+  
+### Data
+
++ 
+
+### Videos
+
++ Video16a.  ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
++ Video16b. Connecting to database and retrieving data ( minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+  
+### Assignments
+
++ Discuss16a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ Discuss16b, 
+  + 
+  + Submit your discussion comments [here]().
+
++ HW16a, .
+  + 
+  + Submit your assignment [here]().
+  
++ HW16b, .
+  + 
+  + Submit your assignment [here]().
+  
++ Quiz16, 
+  + Your quiz for this module is available [here]().
+  

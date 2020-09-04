@@ -304,6 +304,148 @@ $(document).ready(function () {
 <div id="module01.-to-be-added" class="section level2">
 <h2>Module01. (To be added)</h2>
 </div>
+<div id="module02." class="section level2">
+<h2>Module02.</h2>
+<div id="objectives" class="section level3">
+<h3>Objectives</h3>
+<ul>
+<li>In this module, you will learn how to
+<ul>
+<li>Retrieve a limited number of fields</li>
+<li>Retrieve distinct values</li>
+<li>Change field names</li>
+</ul></li>
+</ul>
+</div>
+<div id="data" class="section level3">
+<h3>Data</h3>
+<p>This page provides a bit more details about the database used in this module. Please note that there might be small inconsistencies between the Oracle version and the SQLite version of the data.</p>
+<ul>
+<li>Airlines
+<ul>
+<li><a href="https://github.com/classes-medb/5508/blob/master/data/airlines-data-dictionary.txt">Data dictionary</a></li>
+<li>Oracle: no download needed, use schema=melange</li>
+<li>SQLite: download <a href="https://github.com/classes-medb/5508/blob/master/data/melange.SQLite">melange.SQLite</a></li>
+<li>There is a backup of this data in <a href="https://github.com/classes-medb/5508/blob/master/data/airlines.csv">CSV format</a>. You should not need to access this backup.</li>
+</ul></li>
+<li>Crawling
+<ul>
+<li><a href="https://github.com/classes-medb/5508/blob/master/data/crawling-data-dictionary.txt">Data dictionary</a></li>
+<li>Oracle: no download needed, use schema=melange</li>
+<li>SQLite: download <a href="https://github.com/classes-medb/5508/blob/master/data/melange.SQLite">melange.SQLite</a></li>
+<li>There is a backup of this data in <a href="https://github.com/classes-medb/5508/blob/master/data/crawling.csv">CSV format</a>. You should not need to access this backup.</li>
+</ul></li>
+<li>Hospital
+<ul>
+<li><a href="https://github.com/classes-medb/5508/blob/master/data/hospital-data-dictionary.txt">Data dictionary</a></li>
+<li>Oracle: no download needed, use schema=ehr</li>
+<li>SQLite: download <a href="https://github.com/classes-medb/5508/blob/master/data/ehr.SQLite">ehr.SQLite</a></li>
+<li>There is a backup of this data in <a href="https://github.com/classes-medb/5508/blob/master/data/hospital.csv">CSV format</a>. You should not need to access this backup.</li>
+</ul></li>
+<li>Patient_type
+<ul>
+<li><a href="https://github.com/classes-medb/5508/blob/master/data/patient-type-data-dictionary.txt">Data dictionary</a></li>
+<li>Oracle: no download needed, use schema=ehr</li>
+<li>SQLite: download <a href="https://github.com/classes-medb/5508/blob/master/data/ehr.SQLite">ehr.SQLite</a></li>
+<li>There is a backup of this data in <a href="https://github.com/classes-medb/5508/blob/master/data/patient_type.csv">CSV format</a>. You should not need to access this backup.</li>
+</ul></li>
+</ul>
+</div>
+<div id="videos" class="section level3">
+<h3>Videos</h3>
+<ul>
+<li>Video02a. Retrieving data using the SQL Select statement (15 minutes)
+<ul>
+<li>Available in <a href="https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b2a0448-a776-46eb-a17f-aaa7010bfcbb">Panopto format</a>.</li>
+<li>Slides with speaker notes available <a href="https://github.com/classes-medb/5508/blob/master/results/video02a.pdf">here</a>.</li>
+</ul></li>
+<li>Video02b. Connecting to database and retrieving data (9 minutes)
+<ul>
+<li>Available in <a href="https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=617dafb4-b773-4c78-ab31-aaaa00ff29e3">Panopto format</a>.</li>
+<li>Slides with speaker notes available <a href="https://github.com/classes-medb/5508/blob/master/results/video02b.pdf">here</a>.</li>
+</ul></li>
+</ul>
+</div>
+<div id="assignments" class="section level3">
+<h3>Assignments</h3>
+<ul>
+<li>Discuss02a, One minute feedback
+<ul>
+<li>Review the videos in this module and briefly answer the following questions
+<ul>
+<li>What was the most important thing that you learned?</li>
+<li>What concept(s) do you still find confusing?</li>
+<li>What would you like to learn next?</li>
+</ul></li>
+<li>Please keep your answers brief. You are welcome to say something generic like “I found nothing confusing” or “I found everything confusing” or “I agree with the previous comment.”</li>
+<li>Submit your discussion comments <a href="https://umkc.instructure.com/courses/58364/discussion_topics/188507">here</a>.</li>
+</ul></li>
+<li>HW02a, Practice using the SELECT statemement.
+<ul>
+<li>Use the table crawling. Refer to the page “Data used in this module” for a description of the data and where you can download it. Oracle users do not need to download anything, but do need to use schema=melange in their code.
+<ul>
+<li>Read all three fields and all records</li>
+<li>Change Temperature to Temperature_F</li>
+<li>Put your code and the output in a single PDF file</li>
+</ul></li>
+<li>Submit your assignment <a href="https://umkc.instructure.com/courses/58364/assignments/233726">here</a>.</li>
+</ul></li>
+<li>HW02b, Practice using the SELECT statement for EHR data.
+<ul>
+<li>Use patient_type table in EHR Datamart. Refer to the page “Data used in this module” for a description of the data and where you can download it. Oracle users do not need to download anything.
+<ul>
+<li>Read all fields and all records</li>
+<li>Change Pat_type_desc to Patient_Type_Desc</li>
+<li>Put your code and the output in a single PDF file</li>
+</ul></li>
+<li>Submit your assignment <a href="https://umkc.instructure.com/courses/58364/assignments/233727">here</a>.</li>
+</ul></li>
+<li>Quiz02, The SELECT statement
+<ul>
+<li>Your quiz for this module is available <a href="https://umkc.instructure.com/courses/58364/quizzes/54820">here</a>.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="module03-to-be-added" class="section level2">
+<h2>Module03 (To be added)</h2>
+</div>
+<div id="module04-sorting-and-restricting-data" class="section level2">
+<h2>Module04, Sorting and restricting data</h2>
+<div id="objectives-1" class="section level3">
+<h3>Objectives</h3>
+<ul>
+<li>In this module, you will learn how to
+<ul>
+<li>Limit the rows that are retrieved by a query</li>
+<li>Sort the rows that are retrieved by a query</li>
+<li>Select a random sample of records</li>
+</ul></li>
+</ul>
+</div>
+<div id="data-1" class="section level3">
+<h3>Data</h3>
+<ul>
+<li><p>Airlines (see module02)</p></li>
+<li><p>Cigarettes</p>
+<ul>
+<li><a href="https://github.com/classes-medb/5508/blob/master/data/cigarettes-data-dictionary.txt">Data dictionary</a></li>
+<li>Oracle: no download needed, use schema=melange</li>
+<li>SQLite: download <a href="https://github.com/classes-medb/5508/blob/master/data/melange.SQLite">melange.SQLite</a></li>
+<li>There is a backup of this data in <a href="https://github.com/classes-medb/5508/blob/master/data/cigarettes.csv">CSV format</a>. You should not need to access this backup.</li>
+</ul></li>
+<li><p>Encounter</p>
+<ul>
+<li><a href="https://github.com/classes-medb/5508/blob/master/data/encounter-data-dictionary.txt">Data dictionary</a></li>
+<li>Oracle: no download needed, use schema=melange</li>
+<li>SQLite: download <a href="https://github.com/classes-medb/5508/blob/master/data/ehr.SQLite">melange.SQLite</a></li>
+<li>There is a backup of this data in <a href="https://github.com/classes-medb/5508/blob/master/data/encounter.csv">CSV format</a>. You should not need to access this backup.</li>
+</ul></li>
+<li><p>Hospital (see module02)</p></li>
+<li><p>Patient_type (see module02)</p></li>
+</ul>
+</div>
+</div>
 
 
 
