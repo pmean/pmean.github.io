@@ -4,7 +4,9 @@ title: "Overview"
     
 Here are the overviews for each module of the class.
 
-## Module01. (To be added)
+## Module01.
+
+(To be added)
 
 ## Module02.
 
@@ -79,7 +81,9 @@ This page provides a bit more details about the database used in this module. Pl
 + Quiz02, The SELECT statement
   + Your quiz for this module is available [here](https://umkc.instructure.com/courses/58364/quizzes/54820).
   
-## Module03 (To be added)
+## Module03
+
+(To be added)
 
 ## Module04, Sorting and restricting data
 
@@ -104,6 +108,12 @@ This page provides a bit more details about the database used in this module. Pl
   + Oracle: no download needed, use schema=melange
   + SQLite: download [melange.SQLite](https://github.com/classes-medb/5508/blob/master/data/ehr.SQLite)
   + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/encounter.csv). You should not need to access this backup.
+  
++ Fat
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/fat-data-dictionary.txt)
+  + Oracle: no download needed, use schema=melange
+  + SQLite: download [melange.SQLite](https://github.com/classes-medb/5508/blob/master/data/melange.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/fat.csv). You should not need to access this backup.
 
 + Hospital (see module02)
 
@@ -143,15 +153,15 @@ This page provides a bit more details about the database used in this module. Pl
     + Put your code and the output in a single PDF file
   + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233728).
   
-+ HW04b, .
++ HW04b, Practice with the WHERE keyword.
   + Use the cigarettes database.
     + Find and print the records for cigarettes that have an ampersand (&) in their name
     + Find and print the records for cigarettes that are a single word brand name (no spaces)
     + Put your code and output in a single pdf file
-  + Submit your assignment [here]().
+  + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233729).
   
-+ Quiz04, 
-  + Your quiz for this module is available [here]().
++ Quiz04, Sorting and restricting
+  + Your quiz for this module is available [here](https://umkc.instructure.com/courses/58364/quizzes/54818).
   
 ## Module05 (To be added)
 
@@ -159,20 +169,27 @@ This page provides a bit more details about the database used in this module. Pl
 
 ### Objectives
 + In this module, you will learn  how to
-  + 
+  + count missing and non-missing values
+  + recognize how missing values influence averages and counts
   
 ### Data
 
-+ 
++ Hospital (see module02)
+
++ Titanic
+  + [Data dictionary](https://github.com/classes-medb/5508/blob/master/data/titanic-data-dictionary.txt)
+  + Oracle: no download needed, use schema=melange
+  + SQLite: download [melange.SQLite](https://github.com/classes-medb/5508/blob/master/data/melange.SQLite)
+  + There is a backup of this data in [CSV format](https://github.com/classes-medb/5508/blob/master/data/titanic.csv). You should not need to access this backup.
 
 ### Videos
 
-+ Video06a.  ( minutes)
-  + Available in [Panopto format]().
-  + Slides with speaker notes available [here]().
-+ Video06b. Connecting to database and retrieving data (  minutes)
-  + Available in [Panopto format]().
-  + Slides with speaker notes available [here]().
++ Video06a. Null values, Part 1 (13 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=873a9bdc-1bad-47c7-8e1b-aac4013aa333).
+  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video06a.pdf).
++ Video06b. Null values, Part 2 (23 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d481f87-e7c2-49c2-a933-aac4013e693f).
+  + Slides with speaker notes, see above.
   
 ### Assignments
 
@@ -182,41 +199,62 @@ This page provides a bit more details about the database used in this module. Pl
     + What concept(s) do you still find confusing?
     + What would you like to learn next?
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
-  + Submit your discussion comments [here]().
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/modules/items/665908).
 
-+ Discuss06b, 
-  + 
-  + Submit your discussion comments [here]().
++ Discuss06b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you.
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/modules/items/665909).
 
-+ HW06a, .
-  + 
-  + Submit your assignment [here]().
-  
-+ HW06b, .
-  + 
-  + Submit your assignment [here]().
++ HW06a, Practice with NULL values.
+  + For your homework, use the hospital database that I mentioned briefly earlier in this lecture.
+    + Verify that the hospital id code (HOSP_ID) has no missing values.
+    + There are only two fields in the database that have null values. 
+    + Get a count of the number of missing values for the indicator for teaching hospital (TEACHING_IND).
+    + There is only one hospital where the number of beds (BED_SIZE) is unknown. Find the id of that hospital.
+  + Combine your results into a single PDF file and submit it.
+  + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233730).
   
 + Quiz06, 
-  + Your quiz for this module is available [here]().
+  + Your quiz for this module is available [here](https://umkc.instructure.com/courses/58364/modules/items/665911).
   
 ## Module07
 
 ### Objectives
 + In this module, you will learn  how to
-  + 
+  + Describe various types of functions available in SQL
+  + Use character, number, and date functions in SELECT statements
+  + Learn different types of single-row functions.
+    + Character
+    + Number
+    + Date
+    + Conversion
+    + General
++ Please note that a few of the single row functions in the videos are not available for SQLite or are slight variations. For a list of SQL single-row functions, please look [here](https://www.sqlite.org/lang_corefunc.html). Here are some functions not available in SQLite.
+  + The case conversion function, initcap.
+  + The character conversion functions concat, lpad, or rpad are (but there is an alternative for concat (Links to an external site.)).
+  + The number functions mod or trunc (but there is an alternative for mod (Links to an external site.)).
+  + The general functions, nvl and decode.
+  + SQLite has a slightly different approach (Links to an external site.) for displaying and manipulating dates. None of these issues will affect any of the homework exercises.
   
 ### Data
 
-+ 
++ No new data tables.
 
 ### Videos
 
-+ Video07a.  ( minutes)
-  + Available in [Panopto format]().
-  + Slides with speaker notes available [here]().
-+ Video07b. Connecting to database and retrieving data ( minutes)
-  + Available in [Panopto format]().
-  + Slides with speaker notes available [here]().
++ Video07a. Single row functions to customize output (11 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60a366ed-290e-4858-a9cc-aac3011d23ca).
+  + Slides available [here](https://github.com/classes-medb/5508/blob/master/results/video07a.pdf).
++ Video07b. Date and general functions (11 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=afef21f6-2a3a-456d-8468-aac4016e8dd3).
+  + Slides, see above.
++ Video07c. Executing single row functions to customize output (21 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f8348c42-a5a9-4d96-88e3-aac30168137e).
+  + Slides, see above.
++ Program output from single row functions. Available in [txt format](https://github.com/classes-medb/5508/blob/master/results/video07a_code.txt).  
++ Video07d. Good computing practices, Part 2 (13 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c4813050-49b8-4ff3-a649-ab190159a79c).
+  + Slides not available.
   
 ### Assignments
 
@@ -226,22 +264,23 @@ This page provides a bit more details about the database used in this module. Pl
     + What concept(s) do you still find confusing?
     + What would you like to learn next?
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
-  + Submit your discussion comments [here]().
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188500).
 
-+ Discuss07b, 
-  + 
-  + Submit your discussion comments [here]().
++ Discuss07b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188518).
 
 + HW07a, .
-  + 
-  + Submit your assignment [here]().
-  
-+ HW07b, .
-  + 
-  + Submit your assignment [here]().
+  + Your homework
+    + Round the value 29.526 to two decimal places.
+    + Truncate the value 29.526 to zero decimal places.
+    + Calculate the remainder of the value 2500 after it is divided by 500
+    + Put your code and output in a single pdf file
+  + Please note that if you use Oracle, you will need the code "from dual" as part of your query. That code is not needed for SQLite. Also, if you are using SQLite, there is no truncate function, but if you subtract 0.5 before rounding, you get the same answer as truncation. SQLite also uses the % operator to compute remainders. So 20 % 8 will produce a value of 4. 
+  + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233731).
   
 + Quiz07, 
-  + Your quiz for this module is available [here]().
+  + Your quiz for this module is available [here](https://umkc.instructure.com/courses/58364/quizzes/54822), [here](https://umkc.instructure.com/courses/58364/quizzes/54809), and [here](https://umkc.instructure.com/courses/58364/quizzes/54814).
   
 ## Module08
 
@@ -272,8 +311,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss08b, 
-  + 
++ Discuss08b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW08a, .
@@ -316,8 +355,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss09b, 
-  + 
++ Discuss09b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW09a, .
@@ -360,8 +399,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss10b, 
-  + 
++ Discuss10b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW10a, .
@@ -404,8 +443,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss11b, 
-  + 
++ Discuss11b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW11a, .
@@ -448,8 +487,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss12b, 
-  + 
++ Discuss12b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW12a, .
@@ -492,8 +531,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss13b, 
-  + 
++ Discuss13b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW13a, .
@@ -536,8 +575,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss14b, 
-  + 
++ Discuss14b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW14a, .
@@ -580,8 +619,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss15b, 
-  + 
++ Discuss15b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW15a, .
@@ -624,8 +663,8 @@ This page provides a bit more details about the database used in this module. Pl
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
   + Submit your discussion comments [here]().
 
-+ Discuss16b, 
-  + 
++ Discuss16b, Review this week's readings
+  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
   + Submit your discussion comments [here]().
 
 + HW16a, .
