@@ -643,13 +643,15 @@ This page provides a bit more details about the database used in this module. Pl
   
 ### Data
 
-+ No new data tables
++ cholesterol, see [data dictionary](https://github.com/classes-medb/5508/blob/master/data/cholesterol-data-dictionary.md)
++ eav, see [data dictionary](https://github.com/classes-medb/5508/blob/master/data/eav-data-dictionary.md)
++ lomaprie, see [data dictionary](https://github.com/classes-medb/5508/blob/master/data/lomaprie-data-dictionary.md)
 
 ### Videos
 
 + Video16a. Gathering and spreading (41 minutes)
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=711e8644-20d9-4112-902e-ab18012a2f55).
-  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video16a.pdf).
+  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/slides-and-speaker-notes-16.pdf).
 
 ### Assignments
 
