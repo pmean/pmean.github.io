@@ -558,20 +558,21 @@ This page provides a bit more details about the database used in this module. Pl
 ## Module14
 
 ### Objectives
-+ In this module, you will learn  how to
-  + 
++ In this module, you will learn how to
+  + Describe set operators
+  + Use a set operator to combine multiple queries into a single query
   
 ### Data
 
-+ 
++ No new data tables
 
 ### Videos
 
-+ Video14a.  ( minutes)
-  + Available in [Panopto format]().
++ Video14a. Using set operators (9 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=25e3a256-fcd6-448c-9fa1-ab10014d349c).
   + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video14a.pdf).
-+ Video14b. Connecting to database and retrieving data ( minutes)
-  + Available in [Panopto format]().
++ Video14b. Electronic Health Records-Using Set Operators (9 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cddb2ce-9b84-468a-8252-ab10015b7a19).
   + Slides with speaker notes available [here]().
   
 ### Assignments
@@ -582,37 +583,32 @@ This page provides a bit more details about the database used in this module. Pl
     + What concept(s) do you still find confusing?
     + What would you like to learn next?
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
-  + Submit your discussion comments [here]().
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188511).
 
-+ Discuss14b, Review this week's readings
-  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
-  + Submit your discussion comments [here]().
++ HW14a.
+  + Details are available [here](https://umkc.instructure.com/courses/58364/assignments/233739).
 
-+ HW14a, .
-  + 
-  + Submit your assignment [here]().
-  
-+ HW14b, .
-  + 
-  + Submit your assignment [here]().
-  
-+ Quiz14, 
-  + Your quiz for this module is available [here]().
++ Quiz14
+  + Your quiz for this module is available [here](https://umkc.instructure.com/courses/58364/quizzes/54810).
   
 ## Module15
 
 ### Objectives
 + In this module, you will learn  how to
-  + 
+  +  Describe the types of problems that the subqueries can solve
+  +  Define subqueries
+  +  Write single-row and multiple-row subqueries
+  +  List the types of subqueries
   
 ### Data
 
-+ 
++ Bricks.csv is available [here](https://umkc.instructure.com/courses/58364/files/2407421)
++ Colours.csv is available [here](https://umkc.instructure.com/courses/58364/files/2407422)
 
 ### Videos
 
-+ Video15a.  ( minutes)
-  + Available in [Panopto format]().
++ Video15a. Using subqueries to solve queries (10 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e7d1727-b75f-4f9a-bbd6-ab1700a3760c).
   + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video15a.pdf).
 + Video15b. Connecting to database and retrieving data ( minutes)
   + Available in [Panopto format]().
@@ -626,45 +622,40 @@ This page provides a bit more details about the database used in this module. Pl
     + What concept(s) do you still find confusing?
     + What would you like to learn next?
   + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
-  + Submit your discussion comments [here]().
-
-+ Discuss15b, Review this week's readings
-  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
-  + Submit your discussion comments [here]().
+  + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188512).
 
 + HW15a, .
-  + 
-  + Submit your assignment [here]().
-  
-+ HW15b, .
-  + 
-  + Submit your assignment [here]().
+  + Answer the following questions:
+    + What is a nested query?
+    + Describe inline views?
+  + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233740).
   
 + Quiz15, 
-  + Your quiz for this module is available [here]().
+  + Your quiz for this module is available [here](https://umkc.instructure.com/courses/58364/quizzes/54813).
   
 ## Module16
 
 ### Objectives
 + In this module, you will learn  how to
-  + 
+  + Gathering: combining multiple columns representing the same measurement at different time points into a single column. This converts a short-and-fat format for longitudinal data into a a tall-and-thin format.
+  + Spreading: taking a single column with measurements at different time points and placing them in separate columns. This converts a tall-and-thin format to a short-and-fat format.
+  + The Entity-Attribute-Value model. This format is a universal format that provides great flexibility for complex information, such as what might appear in a database of electronic health records.
   
 ### Data
 
-+ 
++ No new data tables
 
 ### Videos
 
-+ Video16a.  ( minutes)
-  + Available in [Panopto format]().
++ Video16a. Gathering and spreading (41 minutes)
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=711e8644-20d9-4112-902e-ab18012a2f55).
   + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video16a.pdf).
-+ Video16b. Connecting to database and retrieving data ( minutes)
-  + Available in [Panopto format]().
-  + Slides with speaker notes available [here]().
-  
+
 ### Assignments
 
-+ Discuss16a, One minute feedback
++ No discussion boards
++ No homework
++ No quizzes
   + Review the videos in this module and briefly answer the following questions
     + What was the most important thing that you learned?
     + What concept(s) do you still find confusing?
