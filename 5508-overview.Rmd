@@ -530,10 +530,10 @@ This page provides a bit more details about the database used in this module. Pl
 
 + Video13a. Mismatches (42 minutes)
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60290cf7-f6c7-4e05-8973-aaf40158fcd2).
-  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video13a.pdf).
+  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/slides-and-speaker-notes-13.pdf).
 + Video13b. Counting mismatches (24 minutes)
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=902a7780-2684-4495-8fc4-aaf40165ca75).
-  + Slides with speaker notes available [here](https://github.com/classes-medb/5508/blob/master/results/video13a.pdf).
+  + Slides with speaker notes, see above.
   
 ### Assignments
 
@@ -658,25 +658,3 @@ This page provides a bit more details about the database used in this module. Pl
 + No discussion boards
 + No homework
 + No quizzes
-  + Review the videos in this module and briefly answer the following questions
-    + What was the most important thing that you learned?
-    + What concept(s) do you still find confusing?
-    + What would you like to learn next?
-  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
-  + Submit your discussion comments [here]().
-
-+ Discuss16b, Review this week's readings
-  + Review the reading provide in this module and provide a brief summary (3 or 4 sentences). Was there anything in this reading that surprised you. 
-  + Submit your discussion comments [here]().
-
-+ HW16a, .
-  + 
-  + Submit your assignment [here]().
-  
-+ HW16b, .
-  + 
-  + Submit your assignment [here]().
-  
-+ Quiz16, 
-  + Your quiz for this module is available [here]().
-  
