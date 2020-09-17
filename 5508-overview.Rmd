@@ -65,10 +65,12 @@ This page provides a bit more details about the database used in this module. Pl
   + Submit your discussion comments [here](https://umkc.instructure.com/courses/58364/discussion_topics/188507).
 
 + HW02a, Practice using the SELECT statemement.
-  + Use the table crawling. Refer to the page "Data used in this module" for a description of the data and where you can download it. Oracle users do not need to download anything, but do need to use schema=melange in their code.
-    + Read all three fields and all records
-    + Change Temperature to Temperature_F
-    + Put your code and the output in a single PDF file
+  + Use the table crawling. 
+    + Refer to the page "Data used in this module" for a description of the data and where you can download it. 
+  + Run a query to display all three fields and all records.
+  + Run a query that changes Temperature to Temperature_F and displays all three fields and all records.
++ Show all your code and all your output.
+  + Convert your code and results for both queries into PDF files and combine them, if you can into a single PDF file.
   + Submit your assignment [here](https://umkc.instructure.com/courses/58364/assignments/233726).
   
 + HW02b, Practice using the SELECT statement for EHR data.
