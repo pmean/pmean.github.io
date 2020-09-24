@@ -1,8 +1,10 @@
 ---
-title: "MEDB 5507, Introduction to SAS. Overview of Module01"
+title: "MEDB 5507, Introduction to SAS."
 ---
+
+### Overview of Module01 - Getting started
     
-This file was created by Steve Simon using R Markdown on 2020-09-24 and last updated on `r Sys.Date()`. You can find the source code on my github repository
+This file was created by Steve Simon using R Markdown on 2020-09-24 and last updated on `r Sys.Date()`. You can find the [source code](https://github.com/classes-medb/classes-medb.github.io/blob/master/5507-overview-01.Rmd) on my github repository, [classes-medb](https://github.com/classes-medb).
 
 ### Learning objectives
 
