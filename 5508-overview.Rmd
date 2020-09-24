@@ -1,7 +1,19 @@
 ---
-title: "Overview"
+title: "MEDB 5508, Introduction to SQL. Overview"
 ---
     
+### General information
+    
+This file was created by Steve Simon using R Markdown on 2020-09-24 and last updated on `r Sys.Date()`. You can find the [source code](https://github.com/classes-medb/classes-medb.github.io/blob/master/5508-overview.Rmd) on my github repository, [classes-medb](https://github.com/classes-medb).
+
+This class is taught using the Canvas learning management system. Access to Canvas is limited to me and students currently enrolled. If you have access, the main page for the Canvas site for Fall Semester 2020 is found [here](https://umkc.instructure.com/courses/58364).
+
+The resources on this website will be generally consistent with those on Canvas. If you find any major discrepancies, please bring them to my attention. The information on Canvas takes precedence over the information presented here.
+
+### Syllabus
+
+The syllabus is available on [Canvas](https://umkc.instructure.com/courses/58364/assignments/syllabus) or in [html format](5508-syllabus.html). These should be identical, but if there are any discrepancies, the Canvas site takes precedence.
+
 Here are the overviews for each module of the class.
 
 ## Module01.

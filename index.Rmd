@@ -4,6 +4,10 @@ title: "Steve Simon's MEDB classes"
     
 This website provides information about the courses that Steve Simon teaches at the University of Missouri-Kansas City. All of these classes start with the four letters MEDB, whose meaning has been lost to antiquity.
 
+Links to the overviews for my classes appear in the navigation bar at the top of this page. Each overview includes a link to the syllabus for the class.
+
+You will also find a link to "Reproducible research" which is a series of videos and handouts that I use in many of my classes.
+
 All of the information on this website and as well as the assignment, code, and handouts for these classes are included in a [github site](https://github.com/classes-medb).
 
 This site has the following repositories:

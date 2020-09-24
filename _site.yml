@@ -3,11 +3,9 @@ output_dir: "docs"
 navbar:
   title: "Home page"
   left:
-    - text: "5507 Syllabus"
-      href: 5507-syllabus.html
     - text: "5507 Overview"
       href: 5507-overview.html
-    - text: "5508 Syllabus"
-      href: 5508-syllabus.html
     - text: "5508 Overview"
-      href: 5508-overview.html      
+      href: 5508-overview.html
+    - text: "Reproducible research"
+      href: reproducible-research.html
