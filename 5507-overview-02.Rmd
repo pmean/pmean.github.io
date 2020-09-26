@@ -31,17 +31,17 @@ This file was created by Steve Simon using R Markdown on 2020-09-24 and last upd
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4954f8af-d8be-4657-bc24-aa7f015edf92).
   + Slides with speaker notes available above.
 
-+ V02-03. Importing a wide range of data formats, part 3 (12 minutes). 
++ V02-03. Evil tab character (12 minutes). 
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0ce9339f-f3c9-4bb3-908e-aa790131a2a9).
-  + Slides with speaker notes available above.
+  + There are no slides for this video.
 
-+ V02-03. Importing a wide range of data formats, part 3 (12 minutes). 
-  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0ce9339f-f3c9-4bb3-908e-aa790131a2a9).
-  + Slides with speaker notes available above.
++ V02-04. If you still need a little extra help (20 minutes). 
+  + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c53d9a11-aa2e-4ee0-ac8e-aa78017aaea2).
+  + There are no slides for this video.
 
-+ V02-04. Importing a wide range of data formats, part 4 (). 
-  + Available in [Panopto format]().
-  + Slides with speaker notes available above.
++ Lecture example code
+  + lecture-example-code-02-01.sas (import-space-delimited.sas), available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/lecture-example-code-02-01.sas). It shows how to import a space-delimited text file.
+  + lecture-example-code-02-02.sas (import-space-delimited.sas), available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/lecture-example-code-02-01.sas). It shows how to import a space-delimited text file.
 
 ### Discussion board
 

@@ -39,24 +39,26 @@ Please note that the code shown in these videos will not run exactly the same on
 + V01-03. Your first SAS program (10 minutes). 
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=671572b5-a25a-46e0-8d85-aa730122496b).
   + Slides with speaker notes are not available.
-  + my-first-program.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/my-first-sas-program.sas).
 
 + V01-04. Storing SAS datasets using libname (12 minutes). 
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a8dbb622-2d61-41a7-b6a4-aa7301264e3e).
   + Slides with speaker notes are not available.
-  + permanent-storage.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/permanent-storage.sas).
-  + re-use.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/re-use.sas).
 
 + V01-05. Storing SAS output using ODS (15 minutes). 
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cebf1a98-06bf-41e0-9be1-aa7301384dc6).
   + Slides with speaker notes are not available.
-  + saved-pdf.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/saved-pdf.sas).
-  + saved-html.sas is available in [text format](https://github.com/pmean/introduction-to-SAS/tree/master/basics1/src/saved-html.sas).
 
 + V01-06. Reading external data using infile and filename (13 minutes). 
   + Available in [Panopto format](https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=faeefa60-c4ed-4d5b-a959-aa73013ea6af).
   + Slides with speaker notes are not available.
-  + input-text.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/input-text.sas).
+
++ Programs used in these modules
+  + my-first-program.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/code-01-01(my-first-sas-program).sas).
+  + permanent-storage.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/code-01-02(permanent-storage).sas).
+  + re-use.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/code-01-03(re-use).sas).
+  + saved-pdf.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/code-01-04(saved-pdf).sas).
+  + saved-html.sas is available in [text format](https://github.com/pmean/introduction-to-SAS/tree/master/basics1/src/code01-05(saved-html).sas).
+  + input-text.sas is available in [text format](https://github.com/classes-medb/5507/blob/master/module01/src/code-01-06(input-text).sas).
   
 ### Discussion board
 
