@@ -40,8 +40,17 @@ This file was created by Steve Simon using R Markdown on 2020-09-24 and last upd
   + There are no slides for this video.
 
 + Lecture example code
-  + lecture-example-code-02-01.sas (import-space-delimited.sas), available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/lecture-example-code-02-01.sas). It shows how to import a space-delimited text file.
-  + lecture-example-code-02-02.sas (import-space-delimited.sas), available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/lecture-example-code-02-01.sas). It shows how to import a space-delimited text file.
+  + import-space-delimited.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-01-import-space-delimited.sas).
+  + import-multi-delimited.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-02-import-multi-delimited.sas).
+  + import-comma-delimited.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-03-import-comma-delimited.sas).
+  + import-tilde-delimited.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-04-import-tilde-delimited.sas).
+  + import-tab-delimited.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-05-import-tab-delimited.sas).
+  + import-fixed-width-delimited.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-06-import-fixed-width-delimited.sas).
+  + import-string-data.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-07-import-string-data.sas).
+  + import-first-line-names,sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-08-import-first-line-names.sas).
+  + import-string-to-numeric.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-09-string-to-numeric.sas).
+  + import-abalone.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-10-import-abalonesas).
+  + import-saratoga.sas, available in [text format](https://github.com/classes-medb/5507/blob/master/module02/src/code-02-11-import-saratoga.sas).
 
 ### Discussion board
 

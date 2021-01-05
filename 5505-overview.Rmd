@@ -1,0 +1,66 @@
+---
+title: "MEDB 5505, Introduction to R. Overview"
+---
+    
+### General information
+    
+This file was created by Steve Simon using R Markdown on 2020-01-04 and last updated on `r Sys.Date()`. You can find the [source code](https://github.com/classes-medb/classes-medb.github.io/blob/master/5508-overview.Rmd) on my github repository, [classes-medb](https://github.com/classes-medb).
+
+This class is taught using the Canvas learning management system. Access to Canvas is limited to me and students currently enrolled. If you have access, the main page for the Canvas site for Spring Semester 2020 is found [here](https://umkc.instructure.com/courses/58364).
+
+The resources on this website will be generally consistent with those on Canvas. If you find any major discrepancies, please bring them to my attention. The information on Canvas takes precedence over the information presented here.
+
+### Syllabus
+
+The syllabus is available on [Canvas]() or in [html format](5505-syllabus.html). These should be identical, but if there are any discrepancies, the Canvas site takes precedence.
+
+Here are the overviews for each module of the class.
+
+## Module01.
+
+### Objectives
+
++ In this module, you will learn  how to
+
+### Data
+
+### Videos
+
++ Video01a. xx (xx minutes)
+  + Available in [Panopto format]().
+  + Slides with speaker notes available [here]().
+
+### Assignments
+
++ Discuss01a, One minute feedback
+  + Review the videos in this module and briefly answer the following questions
+    + What was the most important thing that you learned?
+    + What concept(s) do you still find confusing?
+    + What would you like to learn next?
+  + Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+  + Submit your discussion comments [here]().
+
++ HW01a,
+  
++ Quiz01, 
+  
+## Module02
+
+(To be added)
+
+## Module03
+
+(To be added)
+
+## Module04
+
+(To be added)
+
+## Module05
+
+(To be added)
+
+## Module06
+
+(To be added)
+

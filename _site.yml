@@ -3,6 +3,8 @@ output_dir: "docs"
 navbar:
   title: "Home page"
   left:
+    - text: "5505 Overview"
+      href: 5505-overview.html
     - text: "5507 Overview"
       href: 5507-overview.html
     - text: "5508 Overview"
