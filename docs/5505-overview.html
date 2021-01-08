@@ -278,10 +278,10 @@ $(document).ready(function () {
   <a href="5507-overview.html">5507 Overview</a>
 </li>
 <li>
-  <a href="5510-overview.html">5508 Overview</a>
+  <a href="5508-overview.html">5508 Overview</a>
 </li>
 <li>
-  <a href="5508-overview.html">5510 Overview</a>
+  <a href="5510-overview.html">5510 Overview</a>
 </li>
 <li>
   <a href="reproducible-research.html">Reproducible research</a>
@@ -303,6 +303,12 @@ $(document).ready(function () {
 </div>
 
 
+<pre class="r"><code>suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(magrittr)))
+d0 &lt;- ymd(&quot;2021-01-19&quot;)
+mon &lt;- function(i) {
+  paste0(d0-8+7*i, &quot; (Monday)&quot;)
+}</code></pre>
 <div id="general-information" class="section level3">
 <h3>General information</h3>
 <p>This file was created by Steve Simon using R Markdown on 2020-01-04 and last updated on 2021-01-08. You can find the <a href="https://github.com/classes-medb/classes-medb.github.io/blob/master/5508-overview.Rmd">source code</a> on my github repository, <a href="https://github.com/classes-medb">classes-medb</a>.</p>
@@ -335,8 +341,8 @@ $(document).ready(function () {
 </ul></li>
 </ul>
 </div>
-<div id="assignments" class="section level3">
-<h3>Assignments</h3>
+<div id="assignments-due-start-of-week-3-2021-02-01-monday" class="section level3">
+<h3>Assignments, due start of week 3, 2021-02-01 (Monday)</h3>
 <ul>
 <li><p>Discuss01a, One minute feedback</p>
 <ul>
