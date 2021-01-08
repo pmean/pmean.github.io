@@ -1,8 +1,3 @@
-# classes-medb.github.io
+This repository holds information about work done by Steve Simon (e.g., classes, papers, presentations, project).
 
-This repository holds webpages describing several of the MEDB
-classes that Steve Simon teaches.
-
-The webpages are written originally in R Markdown and are
-translated by R into html pages. You need the rmarkdown
-package in R to do this conversion.
+For more information about the repository, click [here](docs/index.html)
