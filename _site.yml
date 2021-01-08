@@ -8,6 +8,8 @@ navbar:
     - text: "5507 Overview"
       href: 5507-overview.html
     - text: "5508 Overview"
+      href: 5510-overview.html
+    - text: "5510 Overview"
       href: 5508-overview.html
     - text: "Reproducible research"
       href: reproducible-research.html
