@@ -1,24 +1,38 @@
 ---
-title: "MEDB 5507, Introduction to SAS"
-author: "Steve Simon"
+title: "MEDB 5505, Introduction to R, Syllabus"
 output: html_document
 ---
 
 ```{r setup, echo=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
 suppressMessages(suppressWarnings(library(stringr)))
+"data/syllabus-part-a-5505.txt" %>%
+  readLines %>%
+  paste(collapse="\n") -> part_a
+"data/syllabus-part-b-all-classes.txt" %>%
+  readLines %>%
+  paste(collapse="\n") -> part_b
+"data/syllabus-part-c-5505.txt" %>%
+  readLines %>%
+  paste(collapse="\n") -> part_c
+"data/syllabus-part-d-all-classes.txt" %>%
+  readLines %>%
+  paste(collapse="\n") -> part_d
+"data/syllabus-part-e-5505.txt" %>%
+  readLines %>%
+  paste(collapse="\n") -> part_e
+"data/syllabus-part-f-all-classes.txt" %>%
+  readLines %>%
+  paste(collapse="\n") -> part_f
+part_a %>%
+  append(part_b) %>%
+  append(part_c) %>%
+  append(part_d) %>%
+  append(part_e) %>%
+  append(part_f) %>%
+  paste(collapse="\n") -> full_syllabus
 ```
 
-```{r}
-s0 <- readLines("data/5505-syllabus.txt")
-i <- 0
-n <- length(s0) %/% 3
-subheads <- str_detect(s0, "^  ")
-mainheads <- (nchar(s0)>0) & !subheads
-s0[mainheads] <- paste0("<h4>", s0[mainheads], "</h4>")
-s1 <- paste0(s0[mainheads | subheads], collapse="\n\n")
-```
-
-`r s1`
+`r full_syllabus`
 
 This document was written on 2020-08-26 and last modifed on `r Sys.Date()`.

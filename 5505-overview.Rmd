@@ -23,6 +23,27 @@ The resources on this website will be generally consistent with those on Canvas.
 
 The syllabus is available on [Canvas]() or in [html format](5505-syllabus.html). These should be identical, but if there are any discrepancies, the Canvas site takes precedence.
 
+
+#### Student Learning Outcomes
++ At the completion of this course, students will be able to:
+  + read text data into R, 
+  + save your output as a PDF file
+  + save your data in a R file
+  + print all or part of a R data set
+  + create and manipulate missing values
+  + Calculate means, standard deviations, and percentages
+  + Draw a simple histogram
+  + Plot a scatterplot and include a trend line
+  + Attach labels to categorical data codes
+
+Introduction
+  + The various ways to run R at UMKC
+  + History of R
+  + Printing all or part of a dataset
+  + Saving your output as a PDF file
+  
+
+
 Here are the overviews for each module of the class.
 
 ## Module01.
