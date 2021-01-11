@@ -25,10 +25,15 @@ suppressMessages(suppressWarnings(library(stringr)))
   readLines %>%
   paste(collapse="\n") -> part_f
 part_a %>%
+  append("\n") %>%
   append(part_b) %>%
+  append("\n") %>%
   append(part_c) %>%
+  append("\n") %>%
   append(part_d) %>%
+  append("\n") %>%
   append(part_e) %>%
+  append("\n") %>%
   append(part_f) %>%
   paste(collapse="\n") -> full_syllabus
 ```

@@ -1,0 +1,7 @@
+---
+title: "MEDB 5505, Introduction to R, module01, downloads"
+---
++ Downloads needed for this module
+    + [p01-small-program.Rmd](https://github.com/pmean/classes/blob/master/introduction-to-r/src/p01-small-program.Rmd) 
+    + [two-small-dataframes.RData](https://github.com/pmean/classes/blob/master/introduction-to-r/data/two-small-dataframes.RData)
+      + For more details about this file, refer to [two-small-dataframes-data-dictionary](https://github.com/pmean/classes/blob/master/introduction-to-r/data/two-small-dataframes-data-dictionary.yaml).

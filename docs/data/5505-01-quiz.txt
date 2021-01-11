@@ -1,0 +1,8 @@
+
++ Quiz01
+  
+1. You can download a Windows, Mac, or Linux version of R. True or False.
+
+2. Documentation can help, even if you do not share your program with anyone else. True or False.
+
+3. In an Rmarkdown file, R commands can go: in the header, in a code chunk, or in either location.
