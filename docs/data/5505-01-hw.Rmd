@@ -1,0 +1,55 @@
+---
+title: "MEDB 5505, Introduction to R, Module01, Homework"
+---
+
+### Assignments, due start of week 3
+
+#### Hw01. Adapt a small program to run on your computer.
+
+Graded: 3 points, one point deducted if submitted late.
+
+Download the following files
+
++ [p01-small-program.Rmd](https://github.com/pmean/classes/blob/master/introduction-to-r/src/p01-small-program.Rmd) 
++ [two-small-dataframes.RData](https://github.com/pmean/classes/blob/master/introduction-to-r/data/two-small-dataframes.RData)
+  + For more details about this file, refer to [two-small-dataframes-data-dictionary](https://github.com/pmean/classes/blob/master/introduction-to-r/data/two-small-dataframes-data-dictionary.yaml).
+
+ Store the R program in a src directory and the data in a data directory somewhere on your computer. Modify the code so that you are listed as the author. Run the program and submit it as a PDF file.
+ 
++ If there are errors or warnings in your output, make your best effort to fix them, but getting anything to run, even something with error messages will be sufficient for this very first homework assignment.
+
+Submit your work [here]()
+
+#### Discuss01, One minute feedback
+
+Graded: 3 points, one point deducted if submitted late.
+
+Review the videos in this module and briefly answer the following questions
+
++ What was the most important thing that you learned?
++ What concept(s) do you still find confusing?
++ What would you like to learn next?
+
+Please keep your answers brief. You are welcome to say something generic like "I found nothing confusing" or "I found everything confusing" or "I agree with the previous comment."
+
+Submit your comments [here](https://umkc.instructure.com/courses/65169/assignments/279189).
+
+#### Quiz01
+
+Graded: 3 points, one point deducted if submitted late.
+
+You can download a Windows, Mac, or Linux version of R.
+
++ True
++ False
+
+Documentation can help, even if you do not share your program with anyone else.
+
++ True
++ False
+
+In an Rmarkdown file, R commands can go:
+
++ in the header
++ in a code chunk
++ in either location.
