@@ -5,7 +5,7 @@ title: "MEDB 5508, Introduction to SQL, Syllabus, Part C"
 ### Common Questions about Course Details
 
 #### Catalog Course ID 	
-+ MEDB 5507
++ MEDB 5508-0001 (15782)
 
 #### How many Credit Hours will I receive after successfully completing this course?	
 + 2

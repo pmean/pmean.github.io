@@ -1,7 +1,6 @@
 ---
-title: "MEDB 5510, Clinical Research Methods, Module01, Objectives"
+title: "MEDB 5510, Clinical Research Methods, Module05, Objectives"
 ---
 
-### In this module, you will learn
+#### In this module, you will learn how to
 
-+ 
