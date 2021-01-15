@@ -1,24 +1,24 @@
 ---
-title: "MEDB 5507, Introduction to SAS"
-author: "Steve Simon"
+title: "MEDB 5507, Introduction to SAS, Syllabus"
 output: html_document
 ---
 
-```{r setup, echo=FALSE}
-knitr::opts_chunk$set(echo=FALSE)
-suppressMessages(suppressWarnings(library(stringr)))
+```{r part-a, child="data/syllabus-part-a-5507.Rmd"}
 ```
 
-```{r}
-s0 <- readLines("data/5507-syllabus.txt")
-i <- 0
-n <- length(s0) %/% 3
-subheads <- str_detect(s0, "^  ")
-mainheads <- (nchar(s0)>0) & !subheads
-s0[mainheads] <- paste0("<h4>", s0[mainheads], "</h4>")
-s1 <- paste0(s0[mainheads | subheads], collapse="\n\n")
+```{r part-b, child="data/syllabus-part-b-all-classes.Rmd"}
 ```
 
-`r s1`
+```{r part-c, child="data/syllabus-part-c-5507.Rmd"}
+```
+
+```{r part-d, child="data/syllabus-part-d-all-classes.Rmd"}
+```
+
+```{r part-e, child="data/syllabus-part-e-5507.Rmd"}
+```
+
+```{r part-f, child="data/syllabus-part-f-all-classes.Rmd"}
+```
 
 This document was written on 2020-08-26 and last modifed on `r Sys.Date()`.

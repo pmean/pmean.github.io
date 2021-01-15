@@ -27,12 +27,17 @@ The syllabus is available on [Canvas](https://umkc.instructure.com/courses/65169
 
 You can start this module at any time. Please complete all the work for this module by the beginning of the third week of classes.
 
+<a name="5505-01-objectives"></a>
+
 ```{r objectives01, child="data/5505-01-objectives.Rmd"}
 ```
 
-```{r child="data/5505-01-videos.Rmd"}
+```{r videos01, child="data/5505-01-videos.Rmd"}
 ```
 
 ```{r hw01, child="data/5505-01-hw.Rmd"}
 ```
+
+
+
 
