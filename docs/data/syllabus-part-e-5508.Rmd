@@ -43,4 +43,4 @@ title: "MEDB 5508, Introduction to SQL, Syllabus, Part E"
 ```{r objectives-08, child="5508-08-objectives.Rmd"}
 ```
 
-Assignments are still being finailzied but will be available soon in the [course overview](https://pmean.github.io/docs/5505-overview.Rmd) for details on individual assignments.
+Assignments are still being finailzied but will be available soon in the [course overview](https://pmean.github.io/docs/5508-overview.Rmd) for details on individual assignments.

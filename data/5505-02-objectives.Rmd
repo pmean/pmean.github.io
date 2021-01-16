@@ -2,14 +2,14 @@
 title: "MEDB 5505, Introduction to R, Module02, Objectives"
 ---
 
-### In this module, you will learn
+#### In this module, you will learn
 
 + how to print all or part of a data frame
 + create a missing value code
 + find and account for missing values
 + produce histograms and scatterplots
 
-### You will also see the following R functions
+#### You will also see the following R functions
 
 + cor
 + dev.off
