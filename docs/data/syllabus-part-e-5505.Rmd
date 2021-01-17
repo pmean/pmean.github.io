@@ -19,7 +19,7 @@ title: "MEDB 5505, Introduction to R, Syllabus, Part E"
 
 ### Description of Course Topics, Assignments, Requirements and Assignment deadlines
 
-#### Module01, getting started
+#### Module01, Getting started
 
 ```{r child="5505-01-objectives.Rmd"}
 ```
@@ -49,4 +49,4 @@ title: "MEDB 5505, Introduction to R, Syllabus, Part E"
 ```{r child="5505-06-objectives.Rmd"}
 ```
 
-Assignments are still being finailzied but will be available soon in the [course overview](https://pmean.github.io/docs/5505-overview.Rmd) for details on individual assignments.
+Assignments are still being finalized but will be available soon in the [course overview](https://pmean.github.io/docs/5505-overview.Rmd) for details on individual assignments.
