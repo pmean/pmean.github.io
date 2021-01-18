@@ -16,8 +16,6 @@ title: "MEDB 5508, Introduction to SQL, Module03/04, Objectives"
 
 #### You will also see the following SQL keywords
 
-+ limit (SQLite only)
-+ monotonic (SAS interface only)
++ limit (SQLite), monotonic (SAS), rownum (Oracle)
 + order by
-+ rownum (Oracle only)
 + where
