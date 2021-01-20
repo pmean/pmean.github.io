@@ -4,9 +4,6 @@ title: "MEDB 5508, Introduction to SQL, Syllabus, Part A"
 
 ### Questions you may have about your instructors
 
-#### How do my instructors prefer to be contacted outside of class?
-+ Steve Simon, 816-235-6617, simons@umkc.edu
-
 #### Who will be my instructor(s)?
 + Suman Sahil, MS
 + Steve Simon, PhD
