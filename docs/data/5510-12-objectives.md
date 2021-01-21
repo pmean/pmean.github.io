@@ -2,7 +2,7 @@
 title: "MEDB 5510, Clinical Research Methods, Module12
 ---
 
-### Module12, Hypothesis testing, Learning objectives
+#### Module12, Hypothesis testing, Learning objectives
 
 1. To discuss the goal of data analysis and interpretation in research projects
 
