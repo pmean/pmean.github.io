@@ -1,8 +1,8 @@
 ---
-title: "MEDB 5510, Clinical Research Methods, Module01, Overview
+title: "MEDB 5510, Clinical Research Methods, Module01
 ---
 
-### Overview, Learning objectives
+#### Module01, Overview of research, Learning objectives
 
 + To describe the variety of research that can be conducted while doing clinical research.
 

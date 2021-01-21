@@ -1,4 +1,8 @@
-### Learning objectives
+---
+title: "MEDB 5510, Clinical Research Methods, Module10
+---
+
+#### Module10, Data collection, Learning objectives
 
 1. To describe the resources needed to conduct focus groups or a series of interviews.
 

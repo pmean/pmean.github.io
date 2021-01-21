@@ -6,7 +6,7 @@ title: "All classes, Syllabus, Part F"
 
 + Please verify these dates on the [UMKC academic calendar](https://calendar.umkc.edu/academic-calendar/all). If you notice a discrepancy, let me know. The UMKC academic calendar always takes precedence.
 
-####+ 2021-01-19 (Tuesday)
+#### 2021-01-19 (Tuesday)
 + Coursework begins
 
 #### 2021-01-25 (Monday)

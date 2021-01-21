@@ -36,9 +36,4 @@ regulations-for-juris-doctor-degree-program/appeal-of-grades/appeal-of-grades.pd
 
 ### Description of Course Topics, Assignments, Requirements and Assignment deadlines
 
-#### Module01
-
-```{r child="5510-01-overview.md"}
-```
-
 Assignments are still being finalized but will be available soon in the [course overview](https://pmean.github.io/docs/5505-overview.Rmd) for details on individual assignments.

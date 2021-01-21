@@ -1,4 +1,8 @@
-### Learning objectives
+---
+title: "MEDB 5510, Clinical Research Methods, Module02
+---
+
+#### Module02, Planning and ethical conduct of research, Learning objectives
 
 + To describe the variety of research that can be conducted while doing clinical research.
 

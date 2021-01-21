@@ -1,4 +1,8 @@
-### Learning objectives
+---
+title: "MEDB 5510, Clinical Research Methods, Module04
+---
+
+#### Module04, Randomized trials, Learning objectives
 
 1. To define what a randomized study is and explain its advantages and disadvantages.
 
