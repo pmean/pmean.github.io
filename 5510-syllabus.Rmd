@@ -18,44 +18,21 @@ output: html_document
 ```{r part-e, child="data/syllabus-part-e-5510.md"}
 ```
 
-```{r objectives01, child="data/5510-01-objectives.md"}
+```{r objectives, echo=FALSE}
+suppressMessages(suppressWarnings(library(magrittr)))
+path <- "https://raw.githubusercontent.com/pmean/classes/master/clinical-research-methodology/data/"
+path <- "https://raw.githubusercontent.com/pmean/pmean.github.io/master/data/"
+full_text <- NULL
+i_list <- c(paste0("0", 1:9), paste0("", 10:13))
+for (i in i_list) {
+  # full_text %<>% append(paste0("### Module", i))
+  fn <- paste0(path, "5510-", i, "-objectives.md")
+  full_text %<>% append(readLines(fn, warn=FALSE)[-(1:3)])
+}
+full_text <- paste0(full_text, collapse="\n\n")
 ```
 
-```{r objectives02, child="data/5510-02-objectives.md"}
-```
-
-```{r objectives03, child="data/5510-03-objectives.md"}
-```
-
-```{r objectives04, child="data/5510-04-objectives.md"}
-```
-
-```{r objectives05, child="data/5510-05-objectives.md"}
-```
-
-```{r objectives06, child="data/5510-06-objectives.md"}
-```
-
-```{r objectives07, child="data/5510-07-objectives.md"}
-```
-
-```{r objectives08, child="data/5510-08-objectives.md"}
-```
-
-```{r objectives09, child="data/5510-09-objectives.md"}
-```
-
-```{r objectives10, child="data/5510-10-objectives.md"}
-```
-
-```{r objectives11, child="data/5510-11-objectives.md"}
-```
-
-```{r objectives12, child="data/5510-12-objectives.md"}
-```
-
-```{r objectives13, child="data/5510-13-objectives.md"}
-```
+`r full_text`
 
 ```{r part-f, child="data/syllabus-part-f-all-classes.md"}
 ```
