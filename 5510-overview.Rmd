@@ -1,5 +1,5 @@
 ---
-title: "MEDB 5510, Clinical Research Methods. Overview"
+title: "MEDB 5510, Clinical Research Methodology, Overview"
 ---
     
 ### General information
