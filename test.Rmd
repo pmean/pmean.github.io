@@ -1,0 +1,9 @@
+---
+title: "MEDB 5505, Introduction to R, Syllabus"
+output: html_document
+---
+
+```{r part-a}
+library(knitr)
+knit("raw.githubusercontent.com/pmean/pmean.github.io/master/data/syllabus-part-a-5505.md")
+```
