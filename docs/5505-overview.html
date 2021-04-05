@@ -23,6 +23,15 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -67,6 +76,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -303,15 +313,9 @@ $(document).ready(function () {
 </div>
 
 
-<pre class="r"><code>suppressMessages(suppressWarnings(library(lubridate)))
-suppressMessages(suppressWarnings(library(magrittr)))
-d0 &lt;- ymd(&quot;2021-01-19&quot;)
-mon &lt;- function(i) {
-  paste0(d0-8+7*i, &quot; (Monday)&quot;)
-}</code></pre>
 <div id="general-information" class="section level2">
 <h2>General information</h2>
-<p>This file was created by Steve Simon using R Markdown on 2020-01-04 and last updated on 2021-01-16. You can find the <a href="https://github.com/classes-medb/classes-medb.github.io/blob/master/5508-overview.Rmd">source code</a> on my github repository, <a href="https://github.com/classes-medb">classes-medb</a>.</p>
+<p>This file was created by Steve Simon using R Markdown on 2020-01-04 and last updated on 2021-04-05. You can find the <a href="https://github.com/classes-medb/classes-medb.github.io/blob/master/5508-overview.Rmd">source code</a> on my github repository, <a href="https://github.com/classes-medb">classes-medb</a>.</p>
 <p>This class is taught using the Canvas learning management system. Access to Canvas is limited to me and students currently enrolled. If you have access, the main page for the Canvas site for Spring Semester 2020 is found <a href="https://umkc.instructure.com/courses/58364">here</a>.</p>
 <p>The resources on this website will be generally consistent with those on Canvas. If you find any major discrepancies, please bring them to my attention. The information on Canvas takes precedence over the information presented here.</p>
 </div>
@@ -319,40 +323,42 @@ mon &lt;- function(i) {
 <h2>Syllabus</h2>
 <p>The syllabus is available on <a href="https://umkc.instructure.com/courses/65169/assignments/syllabus">Canvas</a> or in <a href="5505-syllabus.html">html format</a>. These should be identical, but if there are any discrepancies, the Canvas site takes precedence.</p>
 </div>
-<div id="module01." class="section level2">
-<h2>Module01.</h2>
-<p>You can start this module at any time. Please complete all the work for this module by the beginning of the third week of classes.</p>
-<p><a name="5505-01-objectives"></a></p>
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>Here is an overview of each module in the class. Please note that I might make adjustments in the dates and other details during the semester to meet special needs of this particular class. If there is a discrepancy between this file and the Canvas site, the Canvas site always takes precedence.</p>
+</div>
+<div id="module01" class="section level2">
+<h2>Module01</h2>
 <div id="in-this-module-you-will-learn" class="section level4">
 <h4>In this module, you will learn</h4>
 <ul>
-<li>The various ways to run R at UMKC</li>
-<li>History of R</li>
-<li>Printing all or part of a dataframe</li>
-<li>Displaying information about a dataframe</li>
+<li><p>The various ways to run R at UMKC</p></li>
+<li><p>History of R</p></li>
+<li><p>Loading an RData file</p></li>
+<li><p>Listing the first few lines of a data frame</p></li>
 </ul>
 </div>
 <div id="you-will-also-see-the-following-r-functions" class="section level4">
 <h4>You will also see the following R functions</h4>
 <ul>
-<li>load</li>
-<li>ls</li>
-<li>str</li>
+<li><p>load</p></li>
+<li><p>ls</p></li>
+<li><p>head</p></li>
 </ul>
 </div>
 <div id="videos" class="section level3">
 <h3>Videos</h3>
 <p>There are two videos for this module. The first one is about the R programming language and the second is a general video on good programming practices.</p>
 <ul>
-<li>V01-01. A simple program
+<li><p>V01-01. A simple program</p>
 <ul>
-<li>Available in <a href="https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0583f6a-536d-4397-9c65-ab51000462d8">Panopto format</a>.</li>
-<li>The slides and speaker notes for this video can be found <a href="https://github.com/pmean/classes/blob/master/introduction-to-r/results/v01-slides-and-speaker-notes.pdf">here</a>.</li>
+<li><p>Available in <a href="https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0583f6a-536d-4397-9c65-ab51000462d8">Panopto format</a></p></li>
+<li><p>The slides and speaker notes for this video can be found <a href="https://github.com/pmean/classes/blob/master/introduction-to-r/results/v01-slides-and-speaker-notes.pdf">here</a></p></li>
 </ul></li>
-<li>General video. Good documentation
+<li><p>General video. Good documentation</p>
 <ul>
-<li>Available in <a href="https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0583f6a-536d-4397-9c65-ab51000462d8">Panopto format</a>.</li>
-<li>The slides and speaker notes for this video are not yet available.</li>
+<li><p>Available in <a href="https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0583f6a-536d-4397-9c65-ab51000462d8">Panopto format</a></p></li>
+<li><p>The slides and speaker notes for this video are not yet available.</p></li>
 </ul></li>
 </ul>
 </div>
@@ -363,8 +369,8 @@ mon &lt;- function(i) {
 <p>Graded: 3 points, one point deducted if submitted late.</p>
 <p>Download the following files</p>
 <ul>
-<li><a href="https://github.com/pmean/classes/blob/master/introduction-to-r/src/p01-small-program.Rmd">p01-small-program.Rmd</a></li>
-<li><a href="https://github.com/pmean/classes/blob/master/introduction-to-r/data/two-small-dataframes.RData">two-small-dataframes.RData</a>
+<li><p><a href="https://github.com/pmean/classes/blob/master/introduction-to-r/src/p01-small-program.Rmd">p01-small-program.Rmd</a></p></li>
+<li><p><a href="https://github.com/pmean/classes/blob/master/introduction-to-r/data/two-small-dataframes.RData">two-small-dataframes.RData</a></p>
 <ul>
 <li>For more details about this file, refer to <a href="https://github.com/pmean/classes/blob/master/introduction-to-r/data/two-small-dataframes-data-dictionary.yaml">two-small-dataframes-data-dictionary</a>.</li>
 </ul></li>
@@ -387,22 +393,327 @@ mon &lt;- function(i) {
 <p>Graded: 3 points, one point deducted if submitted late.</p>
 <p>You can download a Windows, Mac, or Linux version of R.</p>
 <ul>
-<li>True</li>
-<li>False</li>
+<li><p>True</p></li>
+<li><p>False</p></li>
 </ul>
 <p>Documentation can help, even if you do not share your program with anyone else.</p>
 <ul>
-<li>True</li>
-<li>False</li>
+<li><p>True</p></li>
+<li><p>False</p></li>
 </ul>
 <p>In an Rmarkdown file, R commands can go:</p>
 <ul>
-<li>in the header</li>
-<li>in a code chunk</li>
-<li>in either location.</li>
+<li><p>in the header</p></li>
+<li><p>in a code chunk</p></li>
+<li><p>in either location.</p></li>
 </ul>
 </div>
 </div>
+</div>
+<div id="module02" class="section level2">
+<h2>Module02</h2>
+<div id="in-this-module-you-will-learn-1" class="section level4">
+<h4>In this module, you will learn</h4>
+<ul>
+<li><p>how to print all or part of a data frame</p></li>
+<li><p>create a missing value code</p></li>
+<li><p>find and account for missing values</p></li>
+<li><p>produce histograms and scatterplots</p></li>
+</ul>
+</div>
+<div id="you-will-also-see-the-following-r-functions-1" class="section level4">
+<h4>You will also see the following R functions</h4>
+<ul>
+<li><p>cor</p></li>
+<li><p>dev.off</p></li>
+<li><p>dim</p></li>
+<li><p>geom_boxplot</p></li>
+<li><p>geom_point</p></li>
+<li><p>geom_smooth</p></li>
+<li><p>ggplot</p></li>
+<li><p>ggtitle</p></li>
+<li><p>head</p></li>
+<li><p>is.na</p></li>
+<li><p>library</p></li>
+<li><p>mean</p></li>
+<li><p>png</p></li>
+<li><p>print</p></li>
+<li><p>round</p></li>
+<li><p>scale_x_continuous</p></li>
+<li><p>sd</p></li>
+<li><p>summary</p></li>
+<li><p>tail</p></li>
+<li><p>which</p></li>
+<li><p>xlab</p></li>
+<li><p>ylab</p></li>
+</ul>
+</div>
+<div id="videos-1" class="section level3">
+<h3>Videos</h3>
+<p>There are two videos for this module. The first one is about the R programming language and the second is a general video on .</p>
+<ul>
+<li><p>V02-01.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video can be found <a href="">here</a>.</p></li>
+</ul></li>
+<li><p>General video.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video are not yet available.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="assignments-due-start-of-week-5" class="section level3">
+<h3>Assignments, due start of week 5</h3>
+<div id="hw02." class="section level4">
+<h4>Hw02.</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+<p>Download the following files</p>
+<p>Submit your work <a href="">here</a></p>
+</div>
+<div id="discuss02." class="section level4">
+<h4>Discuss02.</h4>
+<p>Graded: 3 points, one point deduction if submitted after the deadline.</p>
+<p>Submit your comments <a href="">here</a>.</p>
+</div>
+<div id="quiz02" class="section level4">
+<h4>Quiz02</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+</div>
+</div>
+</div>
+<div id="module03" class="section level2">
+<h2>Module03</h2>
+<div id="in-this-module-you-will-learn-how-to" class="section level4">
+<h4>In this module, you will learn how to</h4>
+<ul>
+<li><p>Read text files with various delimiters</p></li>
+<li><p>Read fixed width files</p></li>
+<li><p>Get variable names from the first row of data</p></li>
+</ul>
+</div>
+<div id="you-will-also-see-the-following-r-functions-2" class="section level4">
+<h4>You will also see the following R functions</h4>
+<ul>
+<li><p>read.csv</p></li>
+<li><p>read.fwf</p></li>
+<li><p>read.table</p></li>
+<li><p>write.csv</p></li>
+<li><p>write.table</p></li>
+</ul>
+</div>
+<div id="videos-2" class="section level3">
+<h3>Videos</h3>
+<p>There are two videos for this module. The first one is about the R programming language and the second is a general video on .</p>
+<ul>
+<li><p>V02-01.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video can be found <a href="">here</a>.</p></li>
+</ul></li>
+<li><p>General video.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video are not yet available.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="assignments-due-start-of-week-7" class="section level3">
+<h3>Assignments, due start of week 7</h3>
+<div id="hw03." class="section level4">
+<h4>Hw03.</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+<p>Download the following files</p>
+<p>Submit your work <a href="">here</a></p>
+</div>
+<div id="discuss03." class="section level4">
+<h4>Discuss03.</h4>
+<p>Graded: 3 points, one point deduction if submitted after the deadline.</p>
+<p>Submit your comments <a href="">here</a>.</p>
+</div>
+<div id="quiz03" class="section level4">
+<h4>Quiz03</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+</div>
+</div>
+</div>
+<div id="module04" class="section level2">
+<h2>Module04</h2>
+<div id="in-this-module-you-will-learn-how-to-1" class="section level4">
+<h4>In this module, you will learn how to</h4>
+<ul>
+<li><p>Define factors for categorical variables</p></li>
+<li><p>Calculate crosstabulations</p></li>
+</ul>
+</div>
+<div id="you-will-also-see-the-following-r-functions-3" class="section level4">
+<h4>You will also see the following R functions</h4>
+<ul>
+<li><p>addmargins, adds totals to frequency counts</p></li>
+<li><p>cut, divides a continuous variable into categories</p></li>
+<li><p>factor, adds labels to categories represented by numbers</p></li>
+<li><p>geom_bar, add bars to a graph</p></li>
+<li><p>ggsave, saves a graph to a file</p></li>
+<li><p>names, lists names associated with a frequency table</p></li>
+<li><p>paste, combines two or more strings into a single string</p></li>
+<li><p>prop.table, converts counts into proportions</p></li>
+<li><p>range, computes minimum and maximum</p></li>
+<li><p>round, rounds a number</p></li>
+<li><p>scale_y_continuous, defines features for a plot’s y-axis</p></li>
+<li><p>sum, adds up all the values</p></li>
+<li><p>table, produces frequency counts and crosstabulations</p></li>
+<li><p>which, selects rows which meet a logical condition</p></li>
+<li><p>which.max, seletcs row or rows where a maximum occurs</p></li>
+<li><p>which.min, selects row or rows where a minimum occurs</p></li>
+</ul>
+</div>
+<div id="videos-3" class="section level3">
+<h3>Videos</h3>
+<p>There are two videos for this module. The first one is about the R programming language and the second is a general video on .</p>
+<ul>
+<li><p>V02-01.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video can be found <a href="">here</a>.</p></li>
+</ul></li>
+<li><p>General video.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video are not yet available.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="assignments-due-start-of-week-9" class="section level3">
+<h3>Assignments, due start of week 9</h3>
+<div id="hw04." class="section level4">
+<h4>Hw04.</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+<p>Download the following files</p>
+<p>Submit your work <a href="">here</a></p>
+</div>
+<div id="discuss04." class="section level4">
+<h4>Discuss04.</h4>
+<p>Graded: 3 points, one point deduction if submitted after the deadline.</p>
+<p>Submit your comments <a href="">here</a>.</p>
+</div>
+<div id="quiz04" class="section level4">
+<h4>Quiz04</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+</div>
+</div>
+</div>
+<div id="module05" class="section level2">
+<h2>Module05</h2>
+<div id="in-this-module-you-will-learn-how-to-2" class="section level4">
+<h4>In this module, you will learn how to</h4>
+<ul>
+<li><p>Compute group means and standard deviations</p></li>
+<li><p>Draw boxplots</p></li>
+</ul>
+</div>
+<div id="you-will-also-see-the-following-r-functions-4" class="section level4">
+<h4>You will also see the following R functions</h4>
+<ul>
+<li><p>by, calculates within values of a categorical variable</p></li>
+<li><p>geom_boxplot, adds boxplots to your graph</p></li>
+<li><p>range, displays both the minimum and maximum value</p></li>
+</ul>
+</div>
+<div id="videos-4" class="section level3">
+<h3>Videos</h3>
+<p>There are two videos for this module. The first one is about the R programming language and the second is a general video on .</p>
+<ul>
+<li><p>V02-01.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video can be found <a href="">here</a>.</p></li>
+</ul></li>
+<li><p>General video.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video are not yet available.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="assignments-due-start-of-week-12" class="section level3">
+<h3>Assignments, due start of week 12</h3>
+<div id="hw05." class="section level4">
+<h4>Hw05.</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+<p>Download the following files</p>
+<p>Submit your work <a href="">here</a></p>
+</div>
+<div id="discuss05." class="section level4">
+<h4>Discuss05.</h4>
+<p>Graded: 3 points, one point deduction if submitted after the deadline.</p>
+<p>Submit your comments <a href="">here</a>.</p>
+</div>
+<div id="quiz05" class="section level4">
+<h4>Quiz05</h4>
+<p>Graded: 3 points, one point deducted if submitted late.</p>
+</div>
+</div>
+</div>
+<div id="module06" class="section level2">
+<h2>Module06</h2>
+<div id="in-this-module-you-will-learn-2" class="section level4">
+<h4>In this module, you will learn</h4>
+<ul>
+<li><p>Define two common formats for longitudinal data</p></li>
+<li><p>Convert between the two formats</p></li>
+</ul>
+</div>
+<div id="you-will-also-see-the-following-r-functions-5" class="section level4">
+<h4>You will also see the following R functions</h4>
+<ul>
+<li><p>expand_limits, Expand the range of the x and/or y axis</p></li>
+<li><p>gather, converts to a tall and thin format</p></li>
+<li><p>geom_line, draws a linegraph</p></li>
+<li><p>geom_segment, adds a line segment to a graph</p></li>
+<li><p>spread, converts to a short and fat format</p></li>
+</ul>
+</div>
+<div id="videos-5" class="section level3">
+<h3>Videos</h3>
+<p>There are two videos for this module. The first one is about the R programming language and the second is a general video on .</p>
+<ul>
+<li><p>V02-01.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video can be found <a href="">here</a>.</p></li>
+</ul></li>
+<li><p>General video.</p>
+<ul>
+<li><p>Available in <a href="">Panopto format</a>.</p></li>
+<li><p>The slides and speaker notes for this video are not yet available.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="assignments" class="section level3">
+<h3>Assignments</h3>
+<p>There are no assignments this week. Please start work on your final project.</p>
+</div>
+</div>
+<div id="additional-modules" class="section level2">
+<h2>Additional modules</h2>
+<p>At the discretion of the instructor, you may be asked to review additional modules. These modules will contain videos to review, but no additional assignments.</p>
+</div>
+<div id="final-project" class="section level2">
+<h2>Final project</h2>
+<p>Graded: 100 points. Do not start this assignment until you have viewed all the videos in all of the modules and submitted all the work in the previous assignments.</p>
+<ul>
+<li>Find a data set that interests you.</li>
+<li>Read it into R and compute some summary statistics.</li>
+<li>Are there any missing values?</li>
+<li>Create a factor for at least one categorical variable.</li>
+<li>Draw at least one graph appropriate for your data.</li>
+<li>Produce at least two other statistics or graphs that you think might be interesting and informative.</li>
+<li>Provide a brief interpretation in the context of your data set for everything that you produce above.</li>
+</ul>
+<p>You may already have a data set that interests you, but if you do not, there are many data sources on the web that you can use. Here are just a couple of suggestions.</p>
+<p>–&gt; Gordon Smyth. Australasian Data and Story Library (OzDASL) (Links to an external site.). Description: This website offers a library of data sets and associated stories. It is intended as a resource for teachers of statistics, and emphasis is given to data sets with an Australasian context. Available in <a href="www.statsci.org/data/">html format</a>.</p>
+<p>–&gt; American Statistical Association. Journal of Statistics Education (JSE) Data Archive (Links to an external site.). Description: This website provides data sets used in the various articles in the Journal of Statistics Education. Available in <a href="www.amstat.org/publications/jse/jse_data_archive.htm">html format</a>.</p>
 </div>
 
 
@@ -414,7 +725,7 @@ mon &lt;- function(i) {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

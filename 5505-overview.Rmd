@@ -2,12 +2,23 @@
 title: "MEDB 5505, Introduction to R. Overview"
 ---
 
-```{r setup}
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
 suppressMessages(suppressWarnings(library(lubridate)))
 suppressMessages(suppressWarnings(library(magrittr)))
 d0 <- ymd("2021-01-19")
 mon <- function(i) {
   paste0(d0-8+7*i, " (Monday)")
+}
+p1 <- "https://raw.githubusercontent.com/pmean/classes/master/introduction-to-r/modules/5505-0"
+i <- 0
+
+txt <- function(i) {
+  h1 <- paste("\n\n## Module0", i, "\n", sep="")
+  obj <- readLines(paste0(p1, i, "-objectives.md"), warn=FALSE)[-(1:3)]
+  vid <- readLines(paste0(p1, i, "-videos.md"), warn=FALSE)[-(1:3)]
+  hw  <- readLines(paste0(p1, i, "-hw.md"), warn=FALSE)[-(1:3)]
+  paste(c(h1, obj, vid, hw), collapse="\n\n")
 }
 ```
 
@@ -23,21 +34,41 @@ The resources on this website will be generally consistent with those on Canvas.
 
 The syllabus is available on [Canvas](https://umkc.instructure.com/courses/65169/assignments/syllabus) or in [html format](5505-syllabus.html). These should be identical, but if there are any discrepancies, the Canvas site takes precedence.
 
-## Module01.
+## Overview
 
-You can start this module at any time. Please complete all the work for this module by the beginning of the third week of classes.
+Here is an overview of each module in the class. Please note that I might make adjustments in the dates and other details during the semester to meet special needs of this particular class. If there is a discrepancy between this file and the Canvas site, the Canvas site always takes precedence.
 
-<a name="5505-01-objectives"></a>
+`r txt(1)`
 
-```{r objectives01, child="data/5505-01-objectives.Rmd"}
-```
+`r txt(2)`
 
-```{r videos01, child="data/5505-01-videos.Rmd"}
-```
+`r txt(3)`
 
-```{r hw01, child="data/5505-01-hw.Rmd"}
-```
+`r txt(4)`
 
+`r txt(5)`
 
+`r txt(6)`
 
+## Additional modules
+
+At the discretion of the instructor, you may be asked to review additional modules. These modules will contain videos to review, but no additional assignments.
+
+## Final project
+
+Graded: 100 points. Do not start this assignment until you have viewed all the videos in all of the modules and submitted all the work in the previous assignments.
+
++ Find a data set that interests you.
++ Read it into R and compute some summary statistics.
++ Are there any missing values?
++ Create a factor for at least one categorical variable.
++ Draw at least one graph appropriate for your data.
++ Produce at least two other statistics or graphs that you think might be interesting and informative.
++ Provide a brief interpretation in the context of your data set for everything that you produce above.
+
+You may already have a data set that interests you, but if you do not, there are many data sources on the web that you can use. Here are just a couple of suggestions.
+
+--> Gordon Smyth. Australasian Data and Story Library (OzDASL) (Links to an external site.). Description: This website offers a library of data sets and associated stories. It is intended as a resource for teachers of statistics, and emphasis is given to data sets with an Australasian context. Available in [html format](www.statsci.org/data/).
+
+--> American Statistical Association. Journal of Statistics Education (JSE) Data Archive (Links to an external site.). Description: This website provides data sets used in the various articles in the Journal of Statistics Education. Available in [html format](www.amstat.org/publications/jse/jse_data_archive.htm).
 

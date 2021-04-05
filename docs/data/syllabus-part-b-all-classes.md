@@ -13,3 +13,6 @@ title: "All classes, Syllabus, Part B"
 
 #### Where are my instructors' links for us to meet outside of class?
 + Zoom links will be sent by email once an appointment has been scheduled.
+
+#### How often should I check the Canvas site?
++ Please log on to Canvas at least once a week to review the announcements and to see if any new Modules have been released.
