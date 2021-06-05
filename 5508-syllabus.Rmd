@@ -21,4 +21,4 @@ output: html_document
 ```{r part-f, child="data/syllabus-part-f-all-classes.md"}
 ```
 
-This document was written on 2020-08-26 and last modifed on `r Sys.Date()`.
+This document was written on 2020-08-26 and last modifed on `r Sys.Date()`. 
