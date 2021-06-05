@@ -26,7 +26,7 @@ f2 <- "-objectives.md"
 tx <- NULL
 for (i in 1:8) {
   fn <- paste0(f0, f1, i, f2)
-  tx <- append(tx, readLines(fn)[-(1:3)])
+  tx <- append(tx, readLines(fn, warn=FALSE)[-(1:3)])
   tx <- append(tx, " ")
 }
 tx <- paste0(tx, collapse="\n")

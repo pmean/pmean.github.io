@@ -2,7 +2,7 @@
 title: "All classes, Syllabus, Part F"
 ---
 
-#### Key Dates	for Spring semester, 2021 (16-week session only)
+### Key Dates	for Summer semester, 2021 (8-week session only)
 
 + Please verify these dates on the [UMKC academic calendar](https://calendar.umkc.edu/academic-calendar/all). If you notice a discrepancy, let me know. The UMKC academic calendar always takes precedence.
 
