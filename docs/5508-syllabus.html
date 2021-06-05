@@ -23,6 +23,15 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -67,6 +76,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -305,12 +315,6 @@ $(document).ready(function () {
 
 <div id="questions-you-may-have-about-your-instructors" class="section level3">
 <h3>Questions you may have about your instructors</h3>
-<div id="how-do-my-instructors-prefer-to-be-contacted-outside-of-class" class="section level4">
-<h4>How do my instructors prefer to be contacted outside of class?</h4>
-<ul>
-<li>Steve Simon, 816-235-6617, <a href="mailto:simons@umkc.edu" class="email">simons@umkc.edu</a></li>
-</ul>
-</div>
 <div id="who-will-be-my-instructors" class="section level4">
 <h4>Who will be my instructor(s)?</h4>
 <ul>
@@ -324,7 +328,7 @@ $(document).ready(function () {
 <li>Department of Biomedical and Health Informatics</li>
 </ul>
 </div>
-<div id="how-do-my-instructors-prefer-to-be-contacted-outside-of-class-1" class="section level4">
+<div id="how-do-my-instructors-prefer-to-be-contacted-outside-of-class" class="section level4">
 <h4>How do my instructors prefer to be contacted outside of class?</h4>
 <ul>
 <li>Suman Sahil, 816-235-1812, <a href="mailto:sumans@umkc.edu" class="email">sumans@umkc.edu</a></li>
@@ -353,6 +357,12 @@ $(document).ready(function () {
 <h4>Where are my instructors’ links for us to meet outside of class?</h4>
 <ul>
 <li>Zoom links will be sent by email once an appointment has been scheduled.</li>
+</ul>
+</div>
+<div id="how-often-should-i-check-the-canvas-site" class="section level4">
+<h4>How often should I check the Canvas site?</h4>
+<ul>
+<li>Please log on to Canvas at least once a week to review the announcements and to see if any new Modules have been released.</li>
 </ul>
 </div>
 </div>
@@ -485,39 +495,58 @@ $(document).ready(function () {
 </div>
 <div id="description-of-course-topics-assignments-requirements-and-assignment-deadlines" class="section level3">
 <h3>Description of Course Topics, Assignments, Requirements and Assignment deadlines</h3>
-<div id="in-module02-you-will-learn-how-to" class="section level4">
-<h4>In module02, you will learn how to</h4>
+<pre><code>## Warning in readLines(fn): incomplete final line found on &#39;https://
+## raw.githubusercontent.com/pmean/introduction-to-sql/master/modules/5508-01-
+## objectives.md&#39;</code></pre>
+</div>
+<div id="module01-start-here" class="section level3">
+<h3>Module01, Start here</h3>
+<p>There are eight modules in this class and a final exam. In each module (except the last one), you will participate in a discussion board, take a short quiz, and prepare a homework assignment.</p>
+<p>Your first task is unofficial, but you need to decide how you will run SQL in this class.</p>
+<p>There are at least three methods to access SQL, and they all have been tested by us.</p>
+<p>The first method method is to sign in to the Insights platform and use Oracle. We show you have to access Oracle via SAS. If you do not know SAS, don’t worry. The coding you need is minimal and pretty much stays the same for the entire class. The code that does change is the SQL code inside of PROC SQL in SAS.</p>
+<p>The second and third methods run SQL programs using SQLite. SQLite is a stand-alone program that is easy to use and install. It simplifies things by combining the client and the server into a single system. It does not have all of the features and security of other databases, but it has a small footprint, making it easy to setup and use. It is great for teaching and also works very well when you need to embed a database inside another application.</p>
+<p>You can access SQLite using a stand-alone program, SQLite Studio. It is very easy to use.</p>
+<p>Alternately, you access sQLite using R. We show you how to access SQLite via R. Just as with SAS, you do not need to know R. The coding is minimal and stays the same throughout the class.</p>
+<p>You can mix and match, such as using SAS with SQLite or R with Oracle, but we have not tested these approaches as extensively.</p>
+<p>A student in a previous semester used Python to access SQLServer. It worked quite well, actually, and if you are adventurous, you are welcome to try this.</p>
+<p>There are other excellent free databases out there. MySQL is a free database that has features and security that rival even the best commercial products. SQL Server has a free educational version. We have not tried to document these other systems, but you are welcome to try them if you like. If you use an alternative SQL database, you’ll have to load a few files into that database before doing anything else.</p>
+<div id="in-this-module-you-will-learn-how-to" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
-<li>Retrieve a limited number of fields</li>
-<li>Retrieve distinct values</li>
-<li>Change field names</li>
+<li>logon to the Insights platform</li>
+<li>run a simple SAS program to access an Oracle database</li>
+<li>run an R program to access a SQLite database</li>
+<li>run SQLite Studio to access a SQLite database</li>
+<li>retrieve a limited number of fields</li>
+<li>retrieve distinct values</li>
+<li>change field names</li>
 </ul>
 </div>
-<div id="you-will-also-see-the-following-sql-keywords" class="section level4">
-<h4>You will also see the following SQL keywords</h4>
+<div id="you-will-see-the-following-sql-keywords" class="section level4">
+<h4>You will see the following SQL keywords</h4>
 <ul>
 <li>as</li>
+<li>distinct</li>
 <li>from</li>
 <li>select</li>
 </ul>
 </div>
-<div id="in-module03-you-will-learn-how-to" class="section level4">
-<h4>In module03, you will learn how to</h4>
+</div>
+<div id="module02-introduction-to-relational-databases" class="section level3">
+<h3>Module02, Introduction to relational databases</h3>
+<div id="in-this-module-you-will-learn-how-to-1" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
 <li>Define a relational database</li>
 <li>Use basic database terminology: table, record, field</li>
 <li>Review the history of the SQL language</li>
-</ul>
-</div>
-<div id="in-module04-you-will-learn-how-to" class="section level4">
-<h4>In module04, you will learn how to</h4>
-<ul>
 <li>Limit the rows that are retrieved by a query</li>
 <li>Sort the rows that are retrieved by a query</li>
 <li>Select a random sample of records</li>
 </ul>
 </div>
-<div id="you-will-also-see-the-following-sql-keywords-1" class="section level4">
+<div id="you-will-also-see-the-following-sql-keywords" class="section level4">
 <h4>You will also see the following SQL keywords</h4>
 <ul>
 <li>limit (SQLite only)</li>
@@ -527,16 +556,20 @@ $(document).ready(function () {
 <li>where</li>
 </ul>
 </div>
-<div id="in-module05-you-will-learn-how-to" class="section level4">
-<h4>In module05, you will learn how to</h4>
+<div id="special-resources" class="section level4">
+<h4>Special resources</h4>
+<p>The monotonic function in SAS is not well documented. You can find a bit of information about it</p>
+<p>Chao Huang, Yu Fu. Top 10 Most Powerful Functions for PROC SQL. SAS Global Forum 2013. Available in [pdf format][hua1]</p>
+<p>MONOTONIC function in PROC SQL. SAS Communities Library, 2018-07-05. Available in <a href="https://communities.sas.com/t5/SAS-Communities-Library/MONOTONIC-function-in-PROC-SQL/ta-p/475752">html format</a></p>
+</div>
+</div>
+<div id="module03-securitynull-values" class="section level3">
+<h3>Module03, Security/null values</h3>
+<div id="in-this-module-you-will-learn-how-to-2" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
 <li>Protect passwords</li>
 <li>Prevent SQL Injection attacks</li>
-</ul>
-</div>
-<div id="in-module06-you-will-learn-how-to" class="section level4">
-<h4>In module06, you will learn how to</h4>
-<ul>
 <li>count missing and non-missing values</li>
 <li>recognize how missing values influence averages and counts</li>
 </ul>
@@ -549,8 +582,11 @@ $(document).ready(function () {
 <li>is NULL/is not NULL</li>
 </ul>
 </div>
-<div id="in-module07-you-will-learn-how-to" class="section level4">
-<h4>In module07, you will learn how to</h4>
+</div>
+<div id="module04-single-row-and-aggregate-functions" class="section level3">
+<h3>Module04, Single row and aggregate functions</h3>
+<div id="in-this-module-you-will-learn-how-to-3" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
 <li>Describe various types of functions available in SQL</li>
 <li>Use character, number, and date functions in SELECT statements</li>
@@ -564,7 +600,7 @@ $(document).ready(function () {
 </ul></li>
 </ul>
 </div>
-<div id="you-will-also-see-the-following-sql-keywords-2" class="section level4">
+<div id="you-will-also-see-the-following-sql-keywords-1" class="section level4">
 <h4>You will also see the following SQL keywords</h4>
 <ul>
 <li>add_months (Oracle), no equivalent in SQLite</li>
@@ -572,11 +608,15 @@ $(document).ready(function () {
 <li>concat (Oracle), || (SQLite)</li>
 <li>decode (Oracle), no equivalent in SQLite</li>
 <li>dual (Oracle), not needed in SQLite</li>
+<li>group by</li>
+<li>having</li>
 <li>initcap (Oracle), no equivalent in SQLite</li>
 <li>instr</li>
 <li>length</li>
 <li>lower</li>
 <li>lpad (Oracle), no equivalent in SQLite</li>
+<li>max</li>
+<li>min</li>
 <li>mod (Oracle), % (SQLite)</li>
 <li>months_between (Oracle), no equivalent in SQLite</li>
 <li>last_day (Oracle), no equivalent in SQLite</li>
@@ -592,78 +632,48 @@ $(document).ready(function () {
 <li>upper</li>
 </ul>
 </div>
-<div id="in-module08-you-will-learn-how-to" class="section level4">
-<h4>In module08, you will learn how to</h4>
-<ul>
-<li>Statistical summary functions</li>
-<li>The difference between “where” and “having”</li>
-<li>How statistical functions treat missing values</li>
-</ul>
 </div>
-<div id="you-will-also-see-the-following-sql-keywords-3" class="section level4">
-<h4>You will also see the following SQL keywords</h4>
-<ul>
-<li>group by</li>
-<li>having</li>
-<li>max</li>
-<li>min</li>
-</ul>
-</div>
-<div id="in-module09-you-will-learn-how-to" class="section level4">
-<h4>In module09, you will learn how to</h4>
+<div id="module05-conditional-expression-and-metadata" class="section level3">
+<h3>Module05, Conditional expression and metadata</h3>
+<div id="in-this-module-you-will-learn-how-to-4" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
 <li>differentiate between implicit and explicit conversions</li>
 <li>manipulate dates</li>
 <li>Apply conditional expressions</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-sql-keywords-4" class="section level4">
-<h4>You will also see the following SQL keywords</h4>
-<ul>
-<li>coalesce</li>
-<li>greatest</li>
-<li>in</li>
-<li>least</li>
-<li>to_char</li>
-<li>to_date</li>
-<li>to_number</li>
-</ul>
-</div>
-<div id="in-module10-you-will-learn-how-to" class="section level4">
-<h4>In module10, you will learn how to</h4>
-<ul>
 <li>justify the need for using multiple tables</li>
 <li>get the names of all the tables in a database</li>
 <li>get all the field names for a particular table</li>
 </ul>
 </div>
-<div id="you-will-also-see-the-following-sql-keywords-5" class="section level4">
+<div id="you-will-also-see-the-following-sql-keywords-2" class="section level4">
 <h4>You will also see the following SQL keywords</h4>
 <ul>
-<li>all_tables (Oracle), sqlite_master (SQLite)</li>
-<li>all_tab_columns (Oracle), pragma table_info (SQLite)</li>
+<li>all_tables (Oracle)</li>
+<li>all_tab_columns (Oracle)</li>
+<li>coalesce</li>
+<li>greatest</li>
+<li>in</li>
+<li>least</li>
 <li>owner (Oracle only)</li>
-<li>table_name (Oracle), tbl_name (SQLite)</li>
+<li>pragma table_info (SQLite)</li>
+<li>sqlite_master (SQLite)</li>
+<li>to_char</li>
+<li>to_date</li>
+<li>to_number</li>
+<li>table_name (Oracle)</li>
+<li>tbl_name (SQLite)</li>
 </ul>
 </div>
-<div id="in-module11-you-will-learn-how-to" class="section level4">
-<h4>In Module11, you will learn how to</h4>
+</div>
+<div id="module06-managing-and-retrieving-data-from-multiple-tables" class="section level3">
+<h3>Module06, Managing and retrieving data from multiple tables</h3>
+<div id="in-this-module-you-will-learn-how-to-5" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
 <li>Define primary keys and foreign keys</li>
 <li>Distinguish between one to one, many to one, many to many merges</li>
 <li>Read a database schema</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-sql-keywords-6" class="section level4">
-<h4>You will also see the following SQL keywords</h4>
-<ul>
-<li>join</li>
-<li>on</li>
-</ul>
-</div>
-<div id="in-module12-you-will-learn-how-to" class="section level4">
-<h4>In Module12, you will learn how to</h4>
-<ul>
 <li>Generate a Cartesian product of all rows from two or more tables</li>
 <li>Match using an equijoin</li>
 <li>Match using the EXISTS criteria</li>
@@ -672,34 +682,33 @@ $(document).ready(function () {
 <li>Join a table to itself by using a self-join</li>
 </ul>
 </div>
-<div id="you-will-also-see-the-following-sql-keywords-7" class="section level4">
+<div id="you-will-also-see-the-following-sql-keywords-3" class="section level4">
 <h4>You will also see the following SQL keywords</h4>
 <ul>
 <li>cross join</li>
 <li>inner join</li>
 <li>left join</li>
+<li>on</li>
 <li>outer join (Oracle), no equivalent in SQLite</li>
 <li>right join (Oracle), no equivalent in SQLite</li>
 </ul>
 </div>
-<div id="in-module13-you-will-learn-how-to" class="section level4">
-<h4>In module13, you will learn how to</h4>
+</div>
+<div id="module07-mismatches-and-set-operators" class="section level3">
+<h3>Module07, Mismatches and set operators</h3>
+<div id="in-this-module-you-will-learn-how-to-6" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
 <li>handle a category label that does not have a match in the main table</li>
 <li>handle a category code in the main table that has no corresponding category label</li>
 <li>count records using the category label instead of the category code</li>
 <li>handle dropouts in a longitudinal database</li>
 <li>compute change scores and means in a longitudinal database</li>
+<li>describe set operators</li>
+<li>use a set operator to combine multiple queries into a single query</li>
 </ul>
 </div>
-<div id="in-module14-you-will-learn-how-to" class="section level4">
-<h4>In module14, you will learn how to</h4>
-<ul>
-<li>Describe set operators</li>
-<li>Use a set operator to combine multiple queries into a single query</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-sql-keywords-8" class="section level4">
+<div id="you-will-also-see-the-following-sql-keywords-4" class="section level4">
 <h4>You will also see the following SQL keywords</h4>
 <ul>
 <li>intersect</li>
@@ -708,65 +717,80 @@ $(document).ready(function () {
 <li>union all</li>
 </ul>
 </div>
-<div id="in-module15-you-will-learn-how-to" class="section level4">
-<h4>In module15, you will learn how to</h4>
+</div>
+<div id="module08-suqueries-gathering-and-spreading" class="section level3">
+<h3>Module08, Suqueries, gathering, and spreading</h3>
+<div id="in-this-module-you-will-learn-how-to-7" class="section level4">
+<h4>In this module, you will learn how to</h4>
 <ul>
 <li>Describe the types of problems that the subqueries can solve</li>
 <li>Define subqueries</li>
 <li>Write single-row and multiple-row subqueries</li>
 <li>List the types of subqueries</li>
-</ul>
-</div>
-<div id="in-module16-you-will-learn-how-to" class="section level4">
-<h4>In module16, you will learn how to</h4>
-<ul>
 <li>Gather multiple columns into a single column.</li>
 <li>Spread a single column across multiple columns.</li>
 <li>Use the Entity-Attribute-Value model.</li>
 </ul>
-<p>Assignments are still being finailzied but will be available soon in the <a href="https://pmean.github.io/docs/5508-overview.Rmd">course overview</a> for details on individual assignments.</p>
-<p><strong>Key Dates for Spring semester, 2021 (16-week session only)</strong></p>
-<p>Please verify these dates on the <a href="https://calendar.umkc.edu/academic-calendar/all">UMKC academic calendar</a>. If you notice a discrepancy, let me know. The UMKC academic calendar always takes precedence.</p>
+</div>
+<div id="key-dates-for-spring-semester-2021-16-week-session-only" class="section level4">
+<h4>Key Dates for Spring semester, 2021 (16-week session only)</h4>
 <ul>
-<li>2021-01-19 (Tuesday)
+<li>Please verify these dates on the <a href="https://calendar.umkc.edu/academic-calendar/all">UMKC academic calendar</a>. If you notice a discrepancy, let me know. The UMKC academic calendar always takes precedence.</li>
+</ul>
+</div>
+<div id="monday" class="section level4">
+<h4>2021-06-07 (Monday)</h4>
 <ul>
 <li>Coursework begins</li>
-</ul></li>
-<li>2021-01-25 (Monday)
+</ul>
+</div>
+<div id="wednesday" class="section level4">
+<h4>2021-06-09 (Wednesday)</h4>
 <ul>
+<li>Last day to register without paying a late registration fee</li>
 <li>Last day to add without an instructor signature</li>
 <li>Last day for 100% refund</li>
-<li>Last day to register without paying a late registration fee</li>
-</ul></li>
-<li>2021-02-15 (Monday)
+</ul>
+</div>
+<div id="friday" class="section level4">
+<h4>2021-06-18 (Friday)</h4>
 <ul>
-<li>Last day for 50% refund</li>
 <li>Last day to drop a class and not have it appear on your transcript</li>
-</ul></li>
-<li>2021-03-12 (Friday)
+<li>Last day for 50% refund</li>
+</ul>
+</div>
+<div id="friday-1" class="section level4">
+<h4>2021-07-02 (Friday)</h4>
 <ul>
 <li>Last day for 25% refund</li>
 <li>Last day to withdraw with a W (graduate/professional)</li>
-</ul></li>
-<li>2021-30-29 (Monday)
+</ul>
+</div>
+<div id="monday-1" class="section level4">
+<h4>2021-07-05 (Monday)</h4>
 <ul>
-<li>First day of Spring Break (no classes)</li>
-</ul></li>
-<li>2021-04-02 (Friday)
-<ul>
-<li>Last day of Spring Break (no classes)</li>
-</ul></li>
-<li>2021-04-16 (Friday)
+<li>Independence DAy Observed (no classes)</li>
+</ul>
+</div>
+<div id="friday-2" class="section level4">
+<h4>2021-07-19 (Friday)</h4>
 <ul>
 <li>Last day to withdraw with a “W” (undergraduate)</li>
-</ul></li>
-<li>2021-05-07 (Friday)
+</ul>
+</div>
+<div id="friday-3" class="section level4">
+<h4>2021-07-30 (Friday)</h4>
 <ul>
 <li>Last day to withdraw with a “W” (graduate/professional)</li>
 <li>Last day of classes</li>
-</ul></li>
 </ul>
-<p>This document was written on 2020-08-26 and last modifed on 2021-01-16.</p>
+</div>
+<div id="tuesday" class="section level4">
+<h4>2021-08-03 (Tuesday)</h4>
+<ul>
+<li>Grades due</li>
+</ul>
+<p>This document was written on 2020-08-26 and last modifed on 2021-06-05.</p>
 </div>
 </div>
 
@@ -779,7 +803,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

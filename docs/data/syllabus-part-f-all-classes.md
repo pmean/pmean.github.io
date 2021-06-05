@@ -6,31 +6,31 @@ title: "All classes, Syllabus, Part F"
 
 + Please verify these dates on the [UMKC academic calendar](https://calendar.umkc.edu/academic-calendar/all). If you notice a discrepancy, let me know. The UMKC academic calendar always takes precedence.
 
-#### 2021-01-19 (Tuesday)
+#### 2021-06-07 (Monday)
 + Coursework begins
 
-#### 2021-01-25 (Monday)
+#### 2021-06-09 (Wednesday)
++ Last day to register without paying a late registration fee
 + Last day to add without an instructor signature
 + Last day for 100% refund
-+ Last day to register without paying a late registration fee
 
-#### 2021-02-15 (Monday)
-+ Last day for 50% refund
+#### 2021-06-18 (Friday)
 + Last day to drop a class and not have it appear on your transcript
++ Last day for 50% refund
 
-#### 2021-03-12 (Friday)
+#### 2021-07-02 (Friday)
 + Last day for 25% refund
 + Last day to withdraw with a W (graduate/professional)
 
-#### 2021-30-29 (Monday)
-+ First day of Spring Break (no classes)
+#### 2021-07-05 (Monday)
++ Independence DAy Observed (no classes)
   
-#### 2021-04-02 (Friday)
-+ Last day of Spring Break (no classes)
-  
-#### 2021-04-16 (Friday)
+#### 2021-07-19 (Friday)
 + Last day to withdraw with a “W” (undergraduate)
 
-#### 2021-05-07 (Friday)
+#### 2021-07-30 (Friday)
 + Last day to withdraw with a “W” (graduate/professional)
 + Last day of classes
+
+#### 2021-08-03 (Tuesday)
++ Grades due

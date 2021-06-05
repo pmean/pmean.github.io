@@ -19,28 +19,17 @@ title: "MEDB 5508, Introduction to SQL, Syllabus, Part E"
 
 ### Description of Course Topics, Assignments, Requirements and Assignment deadlines
 
-```{r objectives-01, child="5508-01-objectives.Rmd"}
+```{r, echo=FALSE}
+f0 <- "https://raw.githubusercontent.com/pmean/"
+f1 <- "introduction-to-sql/master/modules/5508-0"
+f2 <- "-objectives.md"
+tx <- NULL
+for (i in 1:8) {
+  fn <- paste0(f0, f1, i, f2)
+  tx <- append(tx, readLines(fn)[-(1:3)])
+  tx <- append(tx, " ")
+}
+tx <- paste0(tx, collapse="\n")
 ```
 
-```{r objectives-02, child="5508-02-objectives.Rmd"}
-```
-
-```{r objectives-03, child="5508-03-objectives.Rmd"}
-```
-
-```{r objectives-04, child="5508-04-objectives.Rmd"}
-```
-
-```{r objectives-05, child="5508-05-objectives.Rmd"}
-```
-
-```{r objectives-06, child="5508-06-objectives.Rmd"}
-```
-
-```{r objectives-07, child="5508-07-objectives.Rmd"}
-```
-
-```{r objectives-08, child="5508-08-objectives.Rmd"}
-```
-
-Assignments are still being finailzied but will be available soon in the [course overview](https://pmean.github.io/docs/5508-overview.Rmd) for details on individual assignments.
+`r tx`
