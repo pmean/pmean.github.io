@@ -8,7 +8,7 @@ title: "MEDB 5508, Introduction to SQL, Syllabus, Part A"
 + Suman Sahil, MS
 + Steve Simon, PhD
 
-#### Which UMKC Departmentis this course from?
+#### Which UMKC Department is this course from?
 + Department of Biomedical and Health Informatics
 
 #### How do my instructors prefer to be contacted outside of class?

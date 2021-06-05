@@ -33,4 +33,4 @@ title: "All classes, Syllabus, Part F"
 + Last day of classes
 
 #### 2021-08-03 (Tuesday)
-+ Grades due
++ Instructor turns in all grades
