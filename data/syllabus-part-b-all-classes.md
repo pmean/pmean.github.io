@@ -5,14 +5,17 @@ title: "All classes, Syllabus, Part B"
 #### Preferred Contact Method
 + Email
 
-#### How quickly can I anticipate hearing back from one of my instructors if I ask send an email or post a question?
-+ Most emails and phone calls will be returned within 24 hours. Email enquiries sent outside the regular work week may take longer for a response.
+#### What is the best way to ask the instructor questions outside of class?
++ If you would like to talk with your instructor(s) about questions, applications of what we’ve discussed in class, or their research, please email me directly to schedule a time to talk through Zoom.
 
-#### If I'd like to drop-in to talk with my instructors about questions, applications of what we've discussed in class, or their research, when can I do that?
-+ Office hours are by appointment only, and will be conducted using the Zoom video conference system.
+#### How quickly can I anticipate receiving feedback from my instructor(s) on assignments, exams, or questions I post or email?
++ Responses to questions received through email or phone messages regarding course requirements will be responded to within 48 hours through email or class discussion.
 
-#### Where are my instructors' links for us to meet outside of class?
-+ Zoom links will be sent by email once an appointment has been scheduled.
+#### When are office hours held for this course?
++ Office hours are by appointment only. Email either instructor to schedule a time to talk through Zoom.
+
+#### Where is my instructor's office locations?
++ M5-117, School of Medicine
 
 #### How often should I check the Canvas site?
 + Please log on to Canvas at least once a week to review the announcements and to see if any new Modules have been released.

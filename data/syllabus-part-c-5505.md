@@ -8,7 +8,7 @@ title: "MEDB 5505, Introduction to R, Syllabus, Part C"
 + MEDB 5505-0001 (15780)
 
 #### How many Credit Hours will I receive after successfully completing this course?	
-+ 1
++ One credit hour
 
 #### What are the Meeting Times and Location for the course?	
 + This is an online class with no pre-specified meeting times.
