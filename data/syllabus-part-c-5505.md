@@ -5,7 +5,7 @@ title: "MEDB 5505, Introduction to R, Syllabus, Part C"
 ### Common Questions about Course Details
 
 #### Catalog Course ID 	
-+ MEDB 5505-0001 (15780)
++ MEDB 5505-0001 (14905)
 
 #### How many Credit Hours will I receive after successfully completing this course?	
 + One credit hour

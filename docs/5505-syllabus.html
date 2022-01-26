@@ -13,22 +13,36 @@
 
 <title>MEDB 5505, Introduction to R, Syllabus</title>
 
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -41,32 +55,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -76,10 +65,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -96,40 +81,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -157,7 +115,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -169,7 +127,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -180,10 +138,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -195,7 +166,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -294,7 +264,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -329,22 +299,34 @@ $(document).ready(function () {
 <li>Email</li>
 </ul>
 </div>
-<div id="how-quickly-can-i-anticipate-hearing-back-from-one-of-my-instructors-if-i-ask-send-an-email-or-post-a-question" class="section level4">
-<h4>How quickly can I anticipate hearing back from one of my instructors if I ask send an email or post a question?</h4>
+<div id="what-is-the-best-way-to-ask-the-instructor-questions-outside-of-class" class="section level4">
+<h4>What is the best way to ask the instructor questions outside of class?</h4>
 <ul>
-<li>Most emails and phone calls will be returned within 24 hours. Email enquiries sent outside the regular work week may take longer for a response.</li>
+<li>If you would like to talk with your instructor(s) about questions, applications of what we’ve discussed in class, or their research, please email me directly to schedule a time to talk through Zoom.</li>
 </ul>
 </div>
-<div id="if-id-like-to-drop-in-to-talk-with-my-instructors-about-questions-applications-of-what-weve-discussed-in-class-or-their-research-when-can-i-do-that" class="section level4">
-<h4>If I’d like to drop-in to talk with my instructors about questions, applications of what we’ve discussed in class, or their research, when can I do that?</h4>
+<div id="how-quickly-can-i-anticipate-receiving-feedback-from-my-instructors-on-assignments-exams-or-questions-i-post-or-email" class="section level4">
+<h4>How quickly can I anticipate receiving feedback from my instructor(s) on assignments, exams, or questions I post or email?</h4>
 <ul>
-<li>Office hours are by appointment only, and will be conducted using the Zoom video conference system.</li>
+<li>Responses to questions received through email or phone messages regarding course requirements will be responded to within 48 hours through email or class discussion.</li>
 </ul>
 </div>
-<div id="where-are-my-instructors-links-for-us-to-meet-outside-of-class" class="section level4">
-<h4>Where are my instructors’ links for us to meet outside of class?</h4>
+<div id="when-are-office-hours-held-for-this-course" class="section level4">
+<h4>When are office hours held for this course?</h4>
 <ul>
-<li>Zoom links will be sent by email once an appointment has been scheduled.</li>
+<li>Office hours are by appointment only. Email either instructor to schedule a time to talk through Zoom.</li>
+</ul>
+</div>
+<div id="where-is-my-instructors-office-locations" class="section level4">
+<h4>Where is my instructor’s office locations?</h4>
+<ul>
+<li>M5-117, School of Medicine</li>
+</ul>
+</div>
+<div id="how-often-should-i-check-the-canvas-site" class="section level4">
+<h4>How often should I check the Canvas site?</h4>
+<ul>
+<li>Please log on to Canvas at least once a week to review the announcements and to see if any new Modules have been released.</li>
 </ul>
 </div>
 </div>
@@ -353,13 +335,13 @@ $(document).ready(function () {
 <div id="catalog-course-id" class="section level4">
 <h4>Catalog Course ID</h4>
 <ul>
-<li>MEDB 5505-0001 (15780)</li>
+<li>MEDB 5505-0001 (14905)</li>
 </ul>
 </div>
 <div id="how-many-credit-hours-will-i-receive-after-successfully-completing-this-course" class="section level4">
 <h4>How many Credit Hours will I receive after successfully completing this course?</h4>
 <ul>
-<li>1</li>
+<li>One credit hour</li>
 </ul>
 </div>
 <div id="what-are-the-meeting-times-and-location-for-the-course" class="section level4">
@@ -426,24 +408,24 @@ $(document).ready(function () {
 </ul>
 </div>
 </div>
-<div id="covid-19-policies" class="section level3">
-<h3>COVID-19 Policies</h3>
-<div id="do-i-need-to-have-a-maskface-coverings-while-on-campus" class="section level4">
-<h4>Do I need to have a Mask/Face-Coverings while on campus?</h4>
+<div id="information-about-covid-19-policies" class="section level3">
+<h3>Information about COVID-19 Policies</h3>
+<div id="if-i-have-questions-regarding-covid-19-general-information-where-do-i-go" class="section level4">
+<h4>If I have questions regarding COVID-19 General Information, where do I go?</h4>
 <ul>
-<li>UMKC’s mask/face-coverings policy is available <a href="https://www.umkc.edu/coronavirus/">here</a>. Any student requesting an ADA accommodation for the University mask/face covering policy should contact Scott Laurent the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at <a href="mailto:laurentr@umkc.edu" class="email">laurentr@umkc.edu</a>.</li>
+<li>Up to date information and FAQs regarding COVID-19 may be found on the [UMKC COVID website][<a href="https://www.umkc.edu/news/coronavirus.html" class="uri">https://www.umkc.edu/news/coronavirus.html</a>].</li>
 </ul>
 </div>
 <div id="if-i-have-a-disability-including-covid-related-disabilities-who-can-assist-me-with-getting-important-accommodations-on-campus" class="section level4">
 <h4>If I have a disability (including COVID-related disabilities), who can assist me with getting important accommodations on campus?</h4>
 <ul>
-<li>Any student seeking COVID-related academic accommodations should contact Scott Laurent the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at <a href="mailto:laurentr@umkc.edu" class="email">laurentr@umkc.edu</a>.</li>
+<li>Any student seeking COVID-related academic accommodations should contact Scott Laurent in the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at <a href="mailto:laurentr@umkc.edu" class="email">laurentr@umkc.edu</a></li>
 </ul>
 </div>
-<div id="if-i-have-questions-regarding-covid-19-general-information-where-do-i-go" class="section level4">
-<h4>If I have questions regarding COVID-19 General Information, where do I go?</h4>
+<div id="do-i-need-to-have-a-maskface-coverings-while-on-campus" class="section level4">
+<h4>Do I need to have a Mask/Face-Coverings while on campus?</h4>
 <ul>
-<li>Up to date information and FAQs regarding COVID-19 may be found on the <a href="https://www.umkc.edu/news/coronavirus.html">UMKC COVID website</a>.</li>
+<li>UMKC’s mask/face-coverings policy is available <a href="https://www.umkc.edu/coronavirus/">here</a>. Any student requesting an ADA accommodation for the University mask/face covering policy should contact Scott Laurent the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at <a href="mailto:laurentr@umkc.edu" class="email">laurentr@umkc.edu</a>.</li>
 </ul>
 </div>
 </div>
@@ -475,199 +457,64 @@ $(document).ready(function () {
 </ul>
 </div>
 </div>
-<div id="description-of-course-topics-assignments-requirements-and-assignment-deadlines" class="section level3">
-<h3>Description of Course Topics, Assignments, Requirements and Assignment deadlines</h3>
-<div id="module01-getting-started" class="section level4">
-<h4>Module01, Getting started</h4>
-</div>
-<div id="in-this-module-you-will-learn" class="section level4">
-<h4>In this module, you will learn</h4>
+<div id="key-dates-for-spring-semester-2022-16-week-session-only" class="section level3">
+<h3>Key Dates for Spring semester, 2022 (16-week session only)</h3>
 <ul>
-<li>The various ways to run R at UMKC</li>
-<li>History of R</li>
-<li>Printing all or part of a dataframe</li>
-<li>Displaying information about a dataframe</li>
+<li>Please verify these dates on the <a href="https://calendar.umkc.edu/academic-calendar/all">UMKC academic calendar</a>. If you notice a discrepancy, let me know. The UMKC academic calendar always takes precedence.</li>
 </ul>
-</div>
-<div id="you-will-also-see-the-following-r-functions" class="section level4">
-<h4>You will also see the following R functions</h4>
-<ul>
-<li>load</li>
-<li>ls</li>
-<li>str</li>
-</ul>
-</div>
-<div id="module02-datasets-with-mostly-continuous-variables" class="section level4">
-<h4>Module02, Datasets with mostly continuous variables</h4>
-</div>
-<div id="in-this-module-you-will-learn-1" class="section level4">
-<h4>In this module, you will learn</h4>
-<ul>
-<li>how to print all or part of a data frame</li>
-<li>create a missing value code</li>
-<li>find and account for missing values</li>
-<li>produce histograms and scatterplots</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-r-functions-1" class="section level4">
-<h4>You will also see the following R functions</h4>
-<ul>
-<li>cor</li>
-<li>dev.off</li>
-<li>dim</li>
-<li>geom_boxplot</li>
-<li>geom_point</li>
-<li>geom_smooth</li>
-<li>ggplot</li>
-<li>ggtitle</li>
-<li>head</li>
-<li>is.na</li>
-<li>library</li>
-<li>mean</li>
-<li>png</li>
-<li>print</li>
-<li>round</li>
-<li>scale_x_continuous</li>
-<li>sd</li>
-<li>summary</li>
-<li>tail</li>
-<li>which</li>
-<li>xlab</li>
-<li>ylab</li>
-</ul>
-</div>
-<div id="module03-reading-text-files" class="section level4">
-<h4>Module03, Reading text files</h4>
-</div>
-<div id="in-this-module-you-will-learn-how-to" class="section level4">
-<h4>In this module, you will learn how to</h4>
-<ul>
-<li>Read text files with various delimiters</li>
-<li>Read fixed width files</li>
-<li>Get variable names from the first row of data</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-r-functions-2" class="section level4">
-<h4>You will also see the following R functions</h4>
-<ul>
-<li>read.csv</li>
-<li>read.fwf</li>
-<li>read.table</li>
-<li>write.csv</li>
-<li>write.table</li>
-</ul>
-</div>
-<div id="module04-datasets-with-mostly-categorical-variables" class="section level4">
-<h4>Module04, Datasets with mostly categorical variables</h4>
-</div>
-<div id="in-this-module-you-will-learn-how-to-1" class="section level4">
-<h4>In this module, you will learn how to</h4>
-<ul>
-<li>Define factors for categorical variables</li>
-<li>Calculate crosstabulations</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-r-functions-3" class="section level4">
-<h4>You will also see the following R functions</h4>
-<ul>
-<li>addmargins, adds totals to frequency counts</li>
-<li>cut, divides a continuous variable into categories</li>
-<li>factor, adds labels to categories represented by numbers</li>
-<li>geom_bar, add bars to a graph</li>
-<li>ggsave, saves a graph to a file</li>
-<li>names, lists names associated with a frequency table</li>
-<li>paste, combines two or more strings into a single string</li>
-<li>prop.table, converts counts into proportions</li>
-<li>range, computes minimum and maximum</li>
-<li>round, rounds a number</li>
-<li>scale_y_continuous, defines features for a plot’s y-axis</li>
-<li>sum, adds up all the values</li>
-<li>table, produces frequency counts and crosstabulations</li>
-<li>which, selects rows which meet a logical condition</li>
-<li>which.max, seletcs row or rows where a maximum occurs</li>
-<li>which.min, selects row or rows where a minimum occurs</li>
-</ul>
-</div>
-<div id="module05-datasets-with-a-mix-of-categorical-and-continuous-variables" class="section level4">
-<h4>Module05, Datasets with a mix of categorical and continuous variables</h4>
-</div>
-<div id="in-this-module-you-will-learn-how-to-2" class="section level4">
-<h4>In this module, you will learn how to</h4>
-<ul>
-<li>Compute group means and standard deviations</li>
-<li>Draw boxplots</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-r-functions-4" class="section level4">
-<h4>You will also see the following R functions</h4>
-<ul>
-<li>by, calculates within values of a categorical variable</li>
-<li>geom_boxplot, adds boxplots to your graph</li>
-<li>range, displays both the minimum and maximum value</li>
-</ul>
-</div>
-<div id="longitudinal-data" class="section level4">
-<h4>Longitudinal data</h4>
-</div>
-<div id="in-this-module-you-will-learn-2" class="section level4">
-<h4>In this module, you will learn</h4>
-<ul>
-<li>Define two common formats for longitudinal data</li>
-<li>Convert between the two formats</li>
-</ul>
-</div>
-<div id="you-will-also-see-the-following-r-functions-5" class="section level4">
-<h4>You will also see the following R functions</h4>
-<ul>
-<li>expand_limits, Expand the range of the x and/or y axis</li>
-<li>gather, converts to a tall and thin format</li>
-<li>geom_line, draws a linegraph</li>
-<li>geom_segment, adds a line segment to a graph</li>
-<li>spread, converts to a short and fat format</li>
-</ul>
-<p>Assignments are still being finalized but will be available soon in the <a href="https://pmean.github.io/docs/5505-overview.Rmd">course overview</a> for details on individual assignments.</p>
-<p><strong>Key Dates for Spring semester, 2021 (16-week session only)</strong></p>
-<p>Please verify these dates on the <a href="https://calendar.umkc.edu/academic-calendar/all">UMKC academic calendar</a>. If you notice a discrepancy, let me know. The UMKC academic calendar always takes precedence.</p>
-<ul>
-<li>2021-01-19 (Tuesday)
+<div id="tuesday" class="section level4">
+<h4>2022-01-18 (Tuesday)</h4>
 <ul>
 <li>Coursework begins</li>
-</ul></li>
-<li>2021-01-25 (Monday)
+</ul>
+</div>
+<div id="monday" class="section level4">
+<h4>2022-01-24 (Monday)</h4>
 <ul>
+<li>Last day to register without paying a late registration fee</li>
 <li>Last day to add without an instructor signature</li>
 <li>Last day for 100% refund</li>
-<li>Last day to register without paying a late registration fee</li>
-</ul></li>
-<li>2021-02-15 (Monday)
+</ul>
+</div>
+<div id="monday-1" class="section level4">
+<h4>2022-02-14 (Monday)</h4>
 <ul>
-<li>Last day for 50% refund</li>
 <li>Last day to drop a class and not have it appear on your transcript</li>
-</ul></li>
-<li>2021-03-12 (Friday)
+<li>Last day for 50% refund</li>
+</ul>
+</div>
+<div id="friday" class="section level4">
+<h4>2022-03-11 (Friday)</h4>
 <ul>
 <li>Last day for 25% refund</li>
 <li>Last day to withdraw with a W (graduate/professional)</li>
-</ul></li>
-<li>2021-30-29 (Monday)
+</ul>
+</div>
+<div id="monday-2" class="section level4">
+<h4>2022-03-28 (Monday)</h4>
 <ul>
-<li>First day of Spring Break (no classes)</li>
-</ul></li>
-<li>2021-04-02 (Friday)
-<ul>
-<li>Last day of Spring Break (no classes)</li>
-</ul></li>
-<li>2021-04-16 (Friday)
+<li>Start of Spring Break</li>
+</ul>
+</div>
+<div id="friday-1" class="section level4">
+<h4>2022-04-15 (Friday)</h4>
 <ul>
 <li>Last day to withdraw with a “W” (undergraduate)</li>
-</ul></li>
-<li>2021-05-07 (Friday)
+</ul>
+</div>
+<div id="friday-2" class="section level4">
+<h4>2022-05-06 (Friday)</h4>
 <ul>
 <li>Last day to withdraw with a “W” (graduate/professional)</li>
 <li>Last day of classes</li>
-</ul></li>
 </ul>
-<p>This document was written on 2020-08-26 and last modifed on 2021-01-16.</p>
+</div>
+<div id="tba" class="section level4">
+<h4>TBA</h4>
+<ul>
+<li>Instructor turns in all grades</li>
+</ul>
+<p>This document was written on 2020-08-26 and last modifed on 2022-01-18.</p>
 </div>
 </div>
 
@@ -680,7 +527,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -698,7 +545,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

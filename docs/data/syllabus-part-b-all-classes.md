@@ -14,8 +14,8 @@ title: "All classes, Syllabus, Part B"
 #### When are office hours held for this course?
 + Office hours are by appointment only. Email either instructor to schedule a time to talk through Zoom.
 
-#### Where are my instructors’ office locations?
-+ M5-120 and M5-117, School of Medicine
+#### Where is my instructor's office locations?
++ M5-117, School of Medicine
 
 #### How often should I check the Canvas site?
 + Please log on to Canvas at least once a week to review the announcements and to see if any new Modules have been released.

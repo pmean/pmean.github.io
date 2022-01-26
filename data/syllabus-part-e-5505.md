@@ -16,37 +16,3 @@ title: "MEDB 5505, Introduction to R, Syllabus, Part E"
 
 #### Final Exam
 + This is no final exam. Your final project needs to be completed prior to the last day of classes (2021-05-07, Friday).
-
-### Description of Course Topics, Assignments, Requirements and Assignment deadlines
-
-#### Module01, Getting started
-
-```{r child="5505-01-objectives.Rmd"}
-```
-
-#### Module02, Datasets with mostly continuous variables
-
-```{r child="5505-02-objectives.Rmd"}
-```
-
-#### Module03, Reading text files
-
-```{r child="5505-03-objectives.Rmd"}
-```
-
-#### Module04, Datasets with mostly categorical variables
-
-```{r child="5505-04-objectives.Rmd"}
-```
-
-#### Module05, Datasets with a mix of categorical and continuous variables
-
-```{r child="5505-05-objectives.Rmd"}
-```
-
-#### Longitudinal data
-
-```{r child="5505-06-objectives.Rmd"}
-```
-
-Assignments are still being finalized but will be available soon in the [course overview](https://pmean.github.io/docs/5505-overview.Rmd) for details on individual assignments.
