@@ -13,12 +13,21 @@
 
 <title>MEDB 5510, Clinical Research Methods, Syllabus</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -33,11 +42,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -50,32 +54,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 
@@ -86,10 +64,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -106,40 +80,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -167,7 +114,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -179,7 +126,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -190,10 +137,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -205,7 +165,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -304,7 +263,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -532,102 +491,6 @@ $(document).ready(function () {
 <div id="description-of-course-topics-assignments-requirements-and-assignment-deadlines" class="section level3">
 <h3>Description of Course Topics, Assignments, Requirements and Assignment deadlines</h3>
 <p>Assignments are still being finalized but will be available soon in the <a href="https://pmean.github.io/docs/5505-overview.Rmd">course overview</a> for details on individual assignments.</p>
-<div id="module01-overview-of-research-learning-objectives" class="section level4">
-<h4>Module01, Overview of research, Learning objectives</h4>
-<ul>
-<li><p>To describe the variety of research that can be conducted while doing clinical research.</p></li>
-<li><p>To describe what is needed in order to identify and define a research question that could be the basis for a research project.</p></li>
-<li><p>To learn what is expected in terms of professional ethics and ethical research with humans.</p></li>
-</ul>
-</div>
-<div id="module02-planning-and-ethical-conduct-of-research-learning-objectives" class="section level4">
-<h4>Module02, Planning and ethical conduct of research, Learning objectives</h4>
-<ul>
-<li><p>To describe the variety of research that can be conducted while doing clinical research.</p></li>
-<li><p>To describe what is needed in order to identify and define a research question that could be the basis for a research project.</p></li>
-<li><p>To learn what is expected in terms of professional ethics and ethical research with humans.</p></li>
-</ul>
-</div>
-<div id="module03-writing-a-literature-review-learning-objectives" class="section level4">
-<h4>Module03, Writing a literature review, Learning objectives</h4>
-<ul>
-<li><p>To define what a literature review is and to contrast it with an annotated bibliography and a systematic overview.</p></li>
-<li><p>To recognize the different approaches to organizing a literature review.</p></li>
-</ul>
-</div>
-<div id="module04-randomized-trials-learning-objectives" class="section level4">
-<h4>Module04, Randomized trials, Learning objectives</h4>
-<ul>
-<li><p>To define what a randomized study is and explain its advantages and disadvantages.</p></li>
-<li><p>To describe how blinding, concealed allocation, and intention to treat analysis can improve the persuasiveness of a randomized trial.</p></li>
-</ul>
-</div>
-<div id="module05-quasi-experimental-designs-learning-objectives" class="section level4">
-<h4>Module05, Quasi-experimental designs, Learning objectives</h4>
-<ul>
-<li><p>To contrast the features of a quality improvement study with a research study</p></li>
-<li><p>To describe the various quasi-experimental approaches</p></li>
-</ul>
-</div>
-<div id="module06-observational-studies-learning-objectives" class="section level4">
-<h4>Module06, Observational studies, Learning objectives</h4>
-<ul>
-<li><p>To distinguish different types of quantitative non-experimental approaches</p></li>
-<li><p>To discuss strengths and weaknesses of qualitative research</p></li>
-</ul>
-</div>
-<div id="module07-review-learning-objectives" class="section level4">
-<h4>Module07, Review, Learning objectives</h4>
-<ul>
-<li><p>To understand the format of a thesis</p></li>
-<li><p>To prepare a bibliography using a consistent standard</p></li>
-</ul>
-</div>
-<div id="module08-sampling-designs" class="section level4">
-<h4>Module08, Sampling designs</h4>
-<ul>
-<li><p>To describe different approaches to probability sampling</p></li>
-<li><p>To discuss advantages and disadvantages of non-probability samples</p></li>
-</ul>
-</div>
-<div id="module09-validity-and-reliability-learning-objectives" class="section level4">
-<h4>Module09, Validity and reliability, Learning objectives</h4>
-<ul>
-<li><p>To understand when test-retest reliability and interrater reliability can be used.</p></li>
-<li><p>To describe the process by which you can establish face and content validity.</p></li>
-</ul>
-</div>
-<div id="module10-data-collection-learning-objectives" class="section level4">
-<h4>Module10, Data collection, Learning objectives</h4>
-<ul>
-<li><p>To describe the resources needed to conduct focus groups or a series of interviews.</p></li>
-<li><p>To develop strategies for putting together a questionnaire.</p></li>
-<li><p>To recognize the special issues associated with secondary data sources.</p></li>
-</ul>
-</div>
-<div id="module11-data-management-learning-objectives" class="section level4">
-<h4>Module11, Data management, Learning objectives</h4>
-<ul>
-<li><p>To understand the value of a data dictionary.</p></li>
-<li><p>To identify how best to store dates and missing value codes.</p></li>
-<li><p>To describe the strengths and weaknesses of storing data in a spreadsheet.</p></li>
-</ul>
-</div>
-<div id="module12-hypothesis-testing-learning-objectives" class="section level4">
-<h4>Module12, Hypothesis testing, Learning objectives</h4>
-<ul>
-<li><p>To discuss the goal of data analysis and interpretation in research projects</p></li>
-<li><p>To discuss statistical power and how to determine it</p></li>
-<li><p>To describe what is needed in order to determine sample size for a research project</p></li>
-</ul>
-</div>
-<div id="module13-statistical-models-and-writing-a-methods-section-learning-objectives" class="section level4">
-<h4>Module13, Statistical models and writing a methods section, Learning objectives</h4>
-<ul>
-<li><p>To demonstrate knowledge of data analysis basic concepts</p></li>
-<li><p>To describe analysis methods appropriate for exploratory, descriptive, explanatory, and quasi-experimental designs</p></li>
-</ul>
-</div>
 <div id="key-dates-for-spring-semester-2021-16-week-session-only" class="section level4">
 <h4>Key Dates for Spring semester, 2021 (16-week session only)</h4>
 <ul>
@@ -686,11 +549,7 @@ $(document).ready(function () {
 <li>Last day to withdraw with a “W” (graduate/professional)</li>
 <li>Last day of classes</li>
 </ul>
-<<<<<<< HEAD
-<p>This document was written on 2020-08-26 and last modifed on 2021-03-09.</p>
-=======
-<p>This document was written on 2020-08-26 and last modifed on 2021-03-03.</p>
->>>>>>> 4812172dd246bffad84e077ea7bb2a2d1ccf3be8
+<p>This document was written on 2020-08-26 and last modifed on 2022-01-26.</p>
 </div>
 </div>
 
@@ -721,7 +580,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

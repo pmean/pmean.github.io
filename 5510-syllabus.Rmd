@@ -18,7 +18,7 @@ output: html_document
 ```{r part-e, child="data/syllabus-part-e-5510.md"}
 ```
 
-```{r objectives, echo=FALSE}
+```{r objectives, echo=FALSE, eval=FALSE}
 suppressMessages(suppressWarnings(library(magrittr)))
 path <- "https://raw.githubusercontent.com/pmean/classes/master/clinical-research-methodology/data/"
 path <- "https://raw.githubusercontent.com/pmean/pmean.github.io/master/data/"
@@ -32,7 +32,7 @@ for (i in i_list) {
 full_text <- paste0(full_text, collapse="\n\n")
 ```
 
-`r full_text`
+`r # full_text`
 
 ```{r part-f, child="data/syllabus-part-f-all-classes.md"}
 ```
