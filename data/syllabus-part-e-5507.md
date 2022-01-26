@@ -15,7 +15,7 @@ title: "MEDB 5507, Introduction to SAS, Syllabus, Part E"
 + This course is grade Credit/No Credit (Pass/Fail). Students who complete at least 80% of the regular coursework and sucessfully complete the final project will receive credit for the course.
 
 #### Final Exam
-+ This is no final exam. Your final project needs to be completed prior to the last day of classes (2021-05-07, Friday).
++ This is no final exam. Your final project needs to be completed prior to the last day of classes (2021-12-10, Friday).
 
 ### Description of Course Topics, Assignments, Requirements and Assignment deadlines
 

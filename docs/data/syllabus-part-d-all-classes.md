@@ -19,13 +19,13 @@ title: "All classes, Syllabus, Part D"
 #### What other academic policies should I review?
 + Additional important information about UMKC's policies and resources can be found [here](https://online.umkc.edu/support-policies).
 
-### COVID-19 Policies
-
-#### Do I need to have a Mask/Face-Coverings while on campus?
-+ UMKC's mask/face-coverings policy is available [here](https://www.umkc.edu/coronavirus/). Any student requesting an ADA accommodation for the University mask/face covering policy should contact Scott Laurent the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at laurentr@umkc.edu.  
-
-#### If I have a disability (including COVID-related disabilities), who can assist me with getting important accommodations on campus?
-+ Any student seeking COVID-related academic accommodations should contact Scott Laurent the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at laurentr@umkc.edu.  
+### Information about COVID-19 Policies
 
 #### If I have questions regarding COVID-19 General Information, where do I go?
-+ Up to date information and FAQs regarding COVID-19 may be found on the [UMKC COVID website](https://www.umkc.edu/news/coronavirus.html).
++ Up to date information and FAQs regarding COVID-19 may be found on the [UMKC COVID website][https://www.umkc.edu/news/coronavirus.html].
+
+#### If I have a disability (including COVID-related disabilities), who can assist me with getting important accommodations on campus?
++ Any student seeking COVID-related academic accommodations should contact Scott Laurent in the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at laurentr@umkc.edu
+
+#### Do I need to have a Mask/Face-Coverings while on campus?
++ UMKC's mask/face-coverings policy is available [here](https://www.umkc.edu/coronavirus/). Any student requesting an ADA accommodation for the University mask/face covering policy should contact Scott Laurent the Office of Disability Services as soon as possible by calling (816) 235-5696 or via email at laurentr@umkc.edu.

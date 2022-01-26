@@ -7,7 +7,7 @@ title: "MEDB 5505, Introduction to R, Syllabus, Part A"
 #### Who will be my instructor(s)?
 + Steve Simon, PhD
 
-#### Which UMKC Departmentis this course from?
+#### Which UMKC Department is this course from?
 + Department of Biomedical and Health Informatics
 
 #### How do my instructors prefer to be contacted outside of class?
